@@ -1,4 +1,8 @@
 _site
+_importer/_pages
+_importer/_posts
+_importer/.htaccess
+_importer/disqus_map.csv
 .DS_Store
 *.swp
 .sass-cache
