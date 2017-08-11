@@ -1,0 +1,20 @@
+---
+layout: post
+title: "MyGet supports Chocolatey"
+date: 2014-10-20 04:23:00 +0200
+comments: true
+published: true
+categories: ["post"]
+tags: ["Stories"]
+alias: ["/post/2014/10/20/myget-supports-chocolatey.aspx"]
+author: "Xavier Decoster"
+redirect_from:
+ - /post/2014/10/20/myget-supports-chocolatey.aspx.html
+ - /post/2014/10/20/myget-supports-chocolatey.aspx.html
+---
+
+<p>Chocolatey is something you need if you've ever installed, upgraded, or removed software on Windows. It is an existing, proven, almost 4 year old project. For those familiar with *nix package managers, it is a binary package manager, sort of like yum or apt-get, but for Windows.&nbsp;</p><p>Here's how the team describes the tool on their Kickstarter campaign:</p>
+<blockquote>Chocolatey is a tool that automates all the mundane getting and installing software work for you. You just select what you want installed and within a few minutes, Chocolatey has downloaded and installed (or upgraded) that software without need for further input from you. So while Chocolatey does the hard work, you can go get some coffee. Or sleep. Or do other more important things.&nbsp;
+</blockquote>
+<p>You probably start to see why we like Chocolatey!</p><p><span style="line-height: 1.4285;">Chocolatey has been part of the NuGet ecosystem since forever, and we are happy Chocolatey users ourselves.&nbsp;</span><span style="line-height: 1.4285;">From the very first beta of MyGet's package sources functionality, we have had&nbsp;</span><a style="line-height: 1.4285; background-color: rgb(255, 255, 255);" href="/post/2012/03/01/MyGet-tops-Vanilla-NuGet-feeds-with-a-Chocolatey-flavor.aspx" target="_blank">built-in support for Chocolatey</a><span style="line-height: 1.4285;">.&nbsp;</span><span style="line-height: 1.4285;">In fact: if you're using MyGet Build Services, then you are already using Chocolatey!&nbsp;</span><span style="line-height: 1.4285;">That's right: all <a href="http://docs.myget.org/docs/reference/build-services#Supported_project_types_and_SDK" target="_blank">the tools mentioned in our Build Services docs</a> are provisioned on our build agents using Chocolatey!</span></p><p><span style="line-height: 1.4285; font-size: 14px;">We also know some of our users are using MyGet to host their own Chocolatey repository, which in turn is just another NuGet feed. It just serves Chocolatey packages instead.</span></p><p><span style="line-height: 1.4285;">It goes without saying that <span style="font-weight: bold;">we are huge fans of the Chocolatey</span></span><span style="line-height: 1.4285;"><span style="font-weight: bold;">&nbsp;project</span> <span style="font-weight: bold;">and</span> we really want to encourage and support the Chocolatey team to take the project to the next level.&nbsp;</span><span style="line-height: 1.4285; font-size: 14px;">If you're like us and love Chocolatey, <span style="font-weight: bold;">we'd like to invite you to join us in backing <a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum" target="_blank">the Chocolatey Kickstarter project</a>!</span>&nbsp;MyGet has pledged $750 to help move the project from <em>experiment</em> to <em>experience</em>.</span></p><p><span style="background-color: rgb(255, 255, 0);"><br></span></p><iframe width="480" height="360" src="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum/widget/video.html" frameborder="0" scrolling="no"> </iframe><p><span style="line-height: 1.4285; font-size: 14px;">Chocolatey has proven to be a huge time saver and invaluable tool&nbsp;for us, and if you feel the same, the least you can do is to <a style="font-weight: bold;" href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum" target="_blank">get yourself a nice box of chocolates</a> ;-)</span></p><p><span style="line-height: 1.4285; font-size: 14px;"><em>Let's get Chocolatey!</em></span></p>
+{% include imported_disclaimer.html %}
