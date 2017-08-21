@@ -3,7 +3,7 @@ description: Best-in-class package management
 meta_description: "Blog about MyGet's best-in-class package management for NuGet, npm, Maven, Bower, VSTS and more!"
 
 logo: false
-baseurl: /
+baseurl: 
 domain_name: 'https://blog.myget.org'
 google_analytics: 'UA-576836-11'
 disqus: 'mygetblog'
