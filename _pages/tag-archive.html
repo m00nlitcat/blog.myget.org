@@ -1,0 +1,34 @@
+---
+layout: default
+permalink: /tags/
+title: "Posts by Tags"
+author_profile: true
+---
+
+{% include group-by-array collection=site.posts field="tags" %}
+
+<div class="row breadcrumbs">
+	<div class="span12">
+		<ul class="breadcrumb">
+			<li><i class="icon-home"></i> <a href="/">Home</a> <span class="divider"><i class="icon-chevron-right"></i></span></li>
+			<li><a href="/archive/">Posts</a> <span class="divider"><i class="icon-chevron-right"></i></span></li>
+			<li><a href="/tags/">By tags</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="row">
+	<div class="span12">
+		<h1>{{ page.title }}</h1>
+
+		{% for tag in group_names %}
+			{% assign posts = group_items[forloop.index0] %}
+			<h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+			<ul>
+			{% for post in posts %}
+				{% include archive-single.html %}
+			{% endfor %}
+			</ul>
+		{% endfor %}
+	</div>
+</div>

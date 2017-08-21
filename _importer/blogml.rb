@@ -56,7 +56,7 @@ module Jekyll
       FileUtils.rmtree "_pages"
       FileUtils.mkdir_p "_pages"
       content = ""
-	  blog_root = "http://blog.myget.org"
+	  blog_root = "https://blog.myget.org"
       open(source, "r") { |f| content << f.read }
       
       FileUtils.touch ".htaccess"

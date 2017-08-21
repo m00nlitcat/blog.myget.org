@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me 
+title: About
 ---
 
-This is a static page example.
+See [www.myget.org](https://www.myget.org) for more information.
