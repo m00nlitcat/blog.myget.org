@@ -14,7 +14,7 @@ redirect_from:
 ---
 
 <p>We&rsquo;re happy to announce we&rsquo;ve completed another sprint. The main focus for this sprint was to start a redesign of our user experience. Next to that, new features have been introduced as well. Let&rsquo;s have a look at what has changed and which cheese we moved.</p>
-<p>A complete <a href="http://docs.myget.org/docs/release-notes/myget-1.7" target="_blank">change log</a> can be found on our <a href="http://docs.myget.org/docs/release-notes/myget-1.7" target="_blank">new documentation site</a>.</p>
+<p>A complete <a href="https://docs.myget.org/docs/release-notes/myget-1.7" target="_blank">change log</a> can be found on our <a href="https://docs.myget.org/docs/release-notes/myget-1.7" target="_blank">new documentation site</a>.</p>
 <h2>First steps in redesigning the MyGet experience</h2>
 <p>One of the first things you will notice when logging in to MyGet is that we&rsquo;ve drastically changed the look and feel of the homepage. First of all, we decided the header we had earlier was too high and didn&rsquo;t add much value. We&rsquo;ve now condensed the header when authenticated. Your gravatar image will be shown and when hovering your username, a list of all feeds you have access to will be shown.</p>
 <p><a href="/images/image_55.png"><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="MyGet new design" src="/images/image_thumb_53.png" alt="MyGet new design" width="640" height="415" border="0" /></a></p>

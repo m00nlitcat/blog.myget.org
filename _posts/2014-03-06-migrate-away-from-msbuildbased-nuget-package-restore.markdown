@@ -41,7 +41,7 @@ The MSBuild-based NuGet package restore has issues. For one: it's MSBuild-based.
 <p>The following tools support the new automatic package restore out-of-the-box and Just Work™!</p>
 <ul>
 <li>Anything based on Project Kudu (<a href="http://www.xavierdecoster.com/deploying-to-azure-web-sites-using-nuget-package-restore-from-a-secured-feed" target="_blank">Windows Azure Web Sites deployments</a>, Windows Azure Mobile Services C# backend, ...)</li>
-<li><a href="http://docs.myget.org/docs/reference/build-services#Package_Restore" target="_blank">MyGet Build Services</a></li>
+<li><a href="https://docs.myget.org/docs/reference/build-services#Package_Restore" target="_blank">MyGet Build Services</a></li>
 </ul>
 <p>The next list of tools requires some minor modifications to the build process:</p>
 <ul>

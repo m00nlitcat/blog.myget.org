@@ -13,7 +13,7 @@ redirect_from:
  - /post/2013/10/28/using-additional-tools-in-the-build-process.aspx.html
 ---
 
-<p>Out of the box, <a href="http://docs.myget.org/docs/reference/build-services" target="_blank">MyGet Build Services</a> supports building projects that depend on various SDK's and/or test runners. A full list of supported project types and SDK's at your disposal is available on our <a href="http://docs.myget.org/docs/reference/build-services">docs</a>.</p>
+<p>Out of the box, <a href="https://docs.myget.org/docs/reference/build-services" target="_blank">MyGet Build Services</a> supports building projects that depend on various SDK's and/or test runners. A full list of supported project types and SDK's at your disposal is available on our <a href="https://docs.myget.org/docs/reference/build-services">docs</a>.</p>
 <p>However, sometimes you run into a missing tool or SDK you absolutely need to compile your projects. Or perhaps you need a different version than the one available by default. If that's the case, you have two options:</p>
 <ul>
 <li>Download the tools you need and commit them to your own repository</li>

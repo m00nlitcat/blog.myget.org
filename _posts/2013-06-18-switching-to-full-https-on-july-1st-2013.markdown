@@ -30,7 +30,7 @@ redirect_from:
 <ul>
 <li>Before July 1st - All links to MyGet have to be migrated to the <a href="https://www.myget.org/">https://www.myget.org</a> URL if you are not on the Enterprise plan.</li>
 </ul>
-<p>To help in updating feed URLs on developer machines, you can make use of package source discovery. <a href="http://docs.myget.org/docs/reference/package-source-discovery">http://docs.myget.org/docs/reference/package-source-discovery</a> <br />In short, every developer can issue the following commands in his/her Visual Studio Package Manager Console to update feed URLs:</p>
+<p>To help in updating feed URLs on developer machines, you can make use of package source discovery. <a href="https://docs.myget.org/docs/reference/package-source-discovery">https://docs.myget.org/docs/reference/package-source-discovery</a> <br />In short, every developer can issue the following commands in his/her Visual Studio Package Manager Console to update feed URLs:</p>
 <pre>Install-Package DiscoverPackageSources
 Discover-PackageSources -Url <a href="https://www.myget.org/Discovery/Feed/">https://www.myget.org/Discovery/Feed/</a></pre>
 <p><br />We are confident this one-time change will make the entire MyGet experience even more secure.</p>

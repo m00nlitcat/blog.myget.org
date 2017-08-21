@@ -46,7 +46,7 @@ This release contains many exciting new features. We'd love to hear from you so 
 
 <ul>
 <li><a href="/post/2014/10/14/User-defined-environment-variables-in-MyGet-builds.aspx">Support for user-defined variables</a></li>
-<li><a href="http://docs.myget.org/docs/reference/build-services#GitVersion_and_Semantic_Versioning">Built-in Support for GitVersion</a></li>
+<li><a href="https://docs.myget.org/docs/reference/build-services#GitVersion_and_Semantic_Versioning">Built-in Support for GitVersion</a></li>
 <li><a href="/post/2014/06/26/Promoting-packages-generated-during-build.aspx">Add ability to push packages upstream directly from build artifacts</a></li>
 <li><a href="/post/2014/03/10/Specifying-which-projects-get-built-with-MyGet-Build-Services.aspx">Allow specifying which projects get built</a></li>
 <li><a href="/post/2014/03/25/Setting-default-package-sources-during-build.aspx">Configurable default upstream package source to push built artifacts to</a></li>

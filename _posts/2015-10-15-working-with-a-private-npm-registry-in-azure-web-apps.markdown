@@ -87,10 +87,10 @@ http://www.CodeHighlighter.com/
 <p>To be able to install node modules from a private npm registry during deployment on Azure Web Apps, we have to ship a <em>.npmrc</em> file with our code. Let’s see how we can do this.</p>
 
 <blockquote>
-<p>Since our application uses both npmjs.org as well as our private registry, we want to make sure MyGet proxies packages used from npmjs.org during installation. We can enable this from our feed’s <strong><em>Package Sources</em></strong> tab and edit the default <em>Npmjs.org</em> package source source. Ensure the <strong>Make all upstream packages available in clients<em> </em></strong>option is checked.<br><br>(more details on this feature in the documentation on <a href="http://docs.myget.org/docs/walkthrough/getting-started-with-npm" target="_blank">using MyGet with npm</a>)</p>
+<p>Since our application uses both npmjs.org as well as our private registry, we want to make sure MyGet proxies packages used from npmjs.org during installation. We can enable this from our feed’s <strong><em>Package Sources</em></strong> tab and edit the default <em>Npmjs.org</em> package source source. Ensure the <strong>Make all upstream packages available in clients<em> </em></strong>option is checked.<br><br>(more details on this feature in the documentation on <a href="https://docs.myget.org/docs/walkthrough/getting-started-with-npm" target="_blank">using MyGet with npm</a>)</p>
 </blockquote>
 
-<p>Next, <a href="http://docs.myget.org/docs/walkthrough/getting-started-with-npm">register your MyGet NPM feed</a> (or another registry URL). The easiest way to do this is by running the following commands:</p>
+<p>Next, <a href="https://docs.myget.org/docs/walkthrough/getting-started-with-npm">register your MyGet NPM feed</a> (or another registry URL). The easiest way to do this is by running the following commands:</p>
 <div class="wlWriterEditableSmartContent" id="scid:9D7513F9-C04C-4721-824A-2B34F0212519:8c356a75-85c8-47a9-b79a-d8a5387b3c0d" style="float: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px"><pre style=" width: 829px; height: 73px;background-color:White;overflow: auto;"><div><!--
 
 Code highlighting produced by Actipro CodeHighlighter (freeware)
