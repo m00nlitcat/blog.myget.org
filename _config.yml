@@ -10,7 +10,6 @@ disqus: 'mygetblog'
 
 # Details for the RSS feed generator
 url: 'https://blog.myget.org'
-github.url: 'https://blog.myget.org'
 author: 'MyGet Blog'
 
 # Reading Files
