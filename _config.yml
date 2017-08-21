@@ -9,7 +9,7 @@ google_analytics: 'UA-576836-11'
 disqus: 'mygetblog'
 
 # Details for the RSS feed generator
-url: 'http://blog.myget.org'
+url: 'https://blog.myget.org'
 author: 'MyGet Blog'
 
 # Reading Files
