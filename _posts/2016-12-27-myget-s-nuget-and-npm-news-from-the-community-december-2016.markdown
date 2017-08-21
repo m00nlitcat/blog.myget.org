@@ -17,4 +17,4 @@ redirect_from:
 
 
 </span> command which help in diagnosing common issues.<br></p><p>Meanwhile, the npm folks are <a href="http://blog.npmjs.org/post/154473364440/npm5-specifications-and-our-rfc-process">reaching out for feedback on a bunch of RFC's for npm@5</a>. There are proposals to make npm faster, improve shrinkwrap. Keep an eye on the RFC's an weigh in if there's something you are passionate about!<br></p><p>Have you tried <a href="https://720kb.github.io/ndm/">ndm (the Npm Desktop Manager)</a>? It's a nice tool to browse and manage a project's npm packages, much like the git GUI tools available but for npm.</p><p>If you have any news to share or have other feedback, let us know using the comments below or <a href="http://www.twitter.com/MyGetTeam">reach out on Twitter</a>.</p><p><em>Happy packaging! And happy new year!</em></p>
-{% include imported_disclaimer.html %}
+

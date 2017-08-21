@@ -43,4 +43,4 @@ redirect_from:
 <p><a href="/images/image_43.png"><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="Push package from MyGet to NuGet" src="/images/image_thumb_41.png" alt="Push package from MyGet to NuGet" width="480" height="408" border="0" /></a></p>
 <p>Click &ldquo;Push&rdquo; and MyGet will take care of pushing the package to the selected package source.</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

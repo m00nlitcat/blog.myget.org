@@ -29,4 +29,4 @@ redirect_from:
 <p>NPM has an RFC open related to <a href="https://github.com/npm/npm/pull/15900">file type dependency specifiers</a>. It makes depending on files inside of our <code>package.json</code>&nbsp;'s dependencies easier. It can point to a package on disk, either compressed or extracted.</p>
 <p>Nihar Sawant wrote a post on <a href="https://www.smashingmagazine.com/2017/03/interactive-command-line-application-node-js/">developing an interactive command line application using Node</a>.He uses the <code>commander</code>&nbsp; package to build a sample application, which is pretty nifty and handles the async and promises nature of Node in an easy to read manner.</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

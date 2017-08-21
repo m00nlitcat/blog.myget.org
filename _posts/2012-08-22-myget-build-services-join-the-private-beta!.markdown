@@ -27,4 +27,4 @@ redirect_from:
 <p>Do note it&rsquo;s still a beta, and as Willy Wonka would say&hellip; &ldquo;Little surprises around every corner, but nothing dangerous.&rdquo;</p>
 <p>Happy packaging!</p>
 <p>PS: Why not deploy your freshly built apps using <a href="http://octopusdeploy.com/" target="_blank">Octopus Deploy</a>?</p>
-{% include imported_disclaimer.html %}
+

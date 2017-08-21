@@ -34,4 +34,4 @@ NuGet</span><span style="color: #000000">.</span><span style="color: #000000">ex
 <p><a href="http://blog.maartenballiauw.be/images/image_137.png"><img style="background-image: none; border-right-width: 0px; margin: 5px auto; padding-left: 0px; padding-right: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="Mirror a NuGet package - Copy a NuGet package" border="0" alt="Mirror a NuGet package - Copy a NuGet package" src="http://blog.maartenballiauw.be/images/image_thumb_105.png" width="644" height="376" /></a></p>
 
 <p>Enjoy making NuGet a component of your enterprise workflow! And MyGet of course as well!</p>
-{% include imported_disclaimer.html %}
+

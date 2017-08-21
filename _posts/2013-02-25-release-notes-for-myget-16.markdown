@@ -60,4 +60,4 @@ redirect_from:
 <li>Build Services: GitHub API only returns 30 repositories.</li>
 </ul>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

@@ -47,4 +47,4 @@ redirect_from:
 <script type="text/javascript" src="http://gist-it.appspot.com/http://github.com/peters/myget/blob/master/examples/nunit.examples.ps1">// <![CDATA[
 
 // ]]
-{% include imported_disclaimer.html %}
+

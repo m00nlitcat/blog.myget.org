@@ -24,4 +24,4 @@ redirect_from:
 <li>Push prerelease versions of your own plugins, annotations and settings to a MyGet feed. Once stable, <a href="/post/2012/11/21/How-I-push-GoogleAnalyticsTracker-to-NuGet.aspx">push them &ldquo;upstream&rdquo;</a> to the ReSharper extension gallery.</li>
 </ul>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

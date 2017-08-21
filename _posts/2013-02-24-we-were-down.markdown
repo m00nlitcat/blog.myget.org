@@ -128,4 +128,4 @@ redirect_from:
 <p>&nbsp;</p>
 <p>Again, we do apologize for the inconvenience caused and are debating around possible fallback scenarios in case a severe platform outage like this occurs again.</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

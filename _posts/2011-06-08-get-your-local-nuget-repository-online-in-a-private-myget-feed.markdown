@@ -25,4 +25,4 @@ redirect_from:
 <p>When the packages are successfully uploaded to your feed, you'll get a nice notification telling you which packages have been added.</p>
 <div style="display: inline-block;"><img style="max-width: 600px;" src="/images/2012/2/multipkguploadsuccess.png" alt="multi-package-upload success" /></div>
 <p>Noticed that the above upload of 2 packages results in 3 packages being added? <em>(it resolved a dependency to elmah.corelibrary 1.2 for elmah 1.2.0.1)</em></p>
-{% include imported_disclaimer.html %}
+

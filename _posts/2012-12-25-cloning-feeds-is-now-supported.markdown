@@ -19,4 +19,4 @@ redirect_from:
 <p>After a couple of minutes, your feed clone will be up and running.</p>
 <p><a href="/images/image_25.png"><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin: 5px auto; display: block; padding-right: 0px; border-width: 0px;" title="image" src="/images/image_thumb_23.png" alt="image" width="484" height="21" border="0" /></a></p>
 <p>Happy packaging!</p>
-{% include imported_disclaimer.html %}
+

@@ -17,4 +17,4 @@ redirect_from:
 <p>Since our latest release, it&rsquo;s now possible to change this default behavior. When creating or editing a build source, the <em>Push symbols to symbol server</em> option specifies if symbols should be pushed or not.</p>
 <p><a href="/images/image_58.png"><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="Configure symbol server behaviour in build services" src="/images/image_thumb_56.png" alt="Configure symbol server behaviour in build services" width="569" height="484" border="0" /></a></p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

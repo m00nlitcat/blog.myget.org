@@ -31,4 +31,4 @@ redirect_from:
 <pre class="brush: bash; auto-links: false; tab-size: 4; toolbar: false; ">git submodule add https://github.com/myget/BuildTools.git myget</pre>
 <p>From then on, you can use the tools from the myget/tools folder in your builds. For example, NuGet 2.5 can be used by calling <em>myget/tools/nuget/2.5/nuget.exe</em>.</p>
 <p><em>Happy Packaging!</em></p>
-{% include imported_disclaimer.html %}
+

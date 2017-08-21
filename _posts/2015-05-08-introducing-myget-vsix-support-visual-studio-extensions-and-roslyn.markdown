@@ -80,4 +80,4 @@ http://www.CodeHighlighter.com/
 <p><a href="/images/image_124.png"><img title="Private VSIX feed with MyGet" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Private VSIX feed with MyGet" src="/images/image_thumb_122.png" width="640" height="333"></a></p>
 <p>Give it a try! More info is available from the <a href="http://www.myget.org/vsix">Visual Studio extension landing page</a> or the <a href="http://docs.myget.org/docs/walkthrough/getting-started-with-vsix">documentation on using MyGet’s Vsix features</a>.</p>
 <p><em>Happy packaging!</em></p></p>
-{% include imported_disclaimer.html %}
+

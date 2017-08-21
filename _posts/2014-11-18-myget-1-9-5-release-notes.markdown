@@ -74,4 +74,4 @@ This release contains many exciting new features. We'd love to hear from you so 
 If you feel strong about a missing feature or have an idea for further improvement, <a href="http://myget.uservoice.com/">please let us know</a>! We build this for you!</p>
 
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

@@ -43,4 +43,4 @@ redirect_from:
 <div id="scid:f32c3428-b7e9-4f15-a8ea-c502c7ff2e88:5ec4e8db-8793-439a-9db0-1b5a3641b3ef" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;"><strong>cinst -all -source http://www.myget.org/F/myfavoritetools</strong></div>
 <p>Not only can you use it after repaving your system, you could use it as well every time you work for a new customer and need to set up your development environment (maybe have multiple feeds for various scenarios?), or why not share the feed with your team members and make sure everyone benefits from these awesome tools out there.</p>
 <p>If ever you have a question about MyGet or need further assistance to get you started, please refer to our <a title="MyGet Blog" href="" target="_blank">blog</a>, reach out on twitter (<a title="Follow us on Twitter!" href="https://twitter.com/MyGetTeam" target="_blank">@MyGetTeam</a>) or use the <a href="http://www.myget.org/Support" target="_blank">Support</a> form to contact us. We&rsquo;ll be happy to help!</p>
-{% include imported_disclaimer.html %}
+

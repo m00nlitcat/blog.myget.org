@@ -45,4 +45,4 @@ redirect_from:
 <p>This could be very simply accomplished with a few PowerShell scripts hooking into the build steps, that check the local cache first, and if not present fetch it. This mechanism will be self-organizing and become faster as we use it (don't you like that?).</p>
 <p>The same counts for your development machines: have a script and local cache for the packages you use. Run a pre-build that checks if any repositories.config or packages.config file has changed and updates your local environment.</p>
 <p>Please, feel free to comment and share your thoughts on this matter!</p>
-{% include imported_disclaimer.html %}
+

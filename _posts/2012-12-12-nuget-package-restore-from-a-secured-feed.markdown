@@ -51,4 +51,4 @@ For private feeds however, there are a few things you need to know.</p>
 <p>That's likely to be the easiest approach: as you register the package source URL, you might want to save the required credentials as well. This is however not exposed in the Visual Studio NuGet Package Manager extension, so you'll have to use the NuGet.exe commandline tool. The following gist illustrates a few of these options that should help you configure your secured feed, including credentials.</p>
 
 <script src="https://gist.github.com/3205826.js"></script>
-{% include imported_disclaimer.html %}
+

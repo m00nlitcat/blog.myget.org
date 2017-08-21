@@ -62,4 +62,4 @@ Here's what I'd love to see happen going forward:
 </li></ul>
 <p></p>
 <p>I'm happy to take on an issue or send PR's for any of the above, but some of the bullet-points seem too big to me to be taken in as a PR.</p>
-{% include imported_disclaimer.html %}
+

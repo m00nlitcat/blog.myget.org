@@ -44,4 +44,4 @@ http://www.CodeHighlighter.com/
 <p><a href="/images/image_120.png"><img title="NuGet Add Binding Redirect" style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto" border="0" alt="NuGet Add Binding Redirect" src="/images/image_thumb_118.png" width="548" height="242"></a></p>
 <p>NuGet will get all projects and for every project, add the correct assembly binding redirects again. Compile, run, and continue your day without rage. Enjoy!</p>
 <p><em>PS: For the other cases where this trick does not help, check Damir Dobric’s post on </em><a href="http://developers.de/blogs/damir_dobric/archive/2014/08/26/troubleshooting-nuget-references.aspx"><em>troubleshooting NuGet references</em></a><em>.</em></p>
-{% include imported_disclaimer.html %}
+

@@ -37,4 +37,4 @@ redirect_from:
 <p>And that's it! Notice the "<em>package published successfully</em>" message and go check your MyGet feed. The next time you want to publish a package to this feed, Package Explorer will remember your API-key so you can just pick the feed URL from the dropdown. Nice and easy!</p>
 <div style="display: inline-block;"><img style="border: 1px solid #CECECE; width: 600px;" src="/images/2012/2/2011-07-12_0018.png" alt="" /></div>
 <p>Note that package details might be cached for a minute on the site, but the feed is updated immediately.</p>
-{% include imported_disclaimer.html %}
+

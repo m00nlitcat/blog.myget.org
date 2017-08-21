@@ -28,4 +28,4 @@ redirect_from:
 <li>Git repositories with submodules can now be built (do note the submodule must be available over HTTP/HTTPS)</li>
 </ul>
 <p>Happy packaging!</p>
-{% include imported_disclaimer.html %}
+

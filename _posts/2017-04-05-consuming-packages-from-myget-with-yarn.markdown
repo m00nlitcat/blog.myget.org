@@ -20,4 +20,4 @@ Do note that for private feeds, the pre-authenticated feed URL has to be used. Y
 <p>Unfortunately, publishing is not a smooth ride yet. The&nbsp;<font color="#c7254e" face="Consolas" size="2" style="background-color: rgb(249, 242, 244);">yarn publish</font>&nbsp;command is able to prompt for credentials succesfully (username, e-mail and password), but after that it <a href="https://github.com/yarnpkg/yarn/issues/1694" target="_blank">seems to hang</a>. Feel free to try it out and <a href="https://github.com/yarnpkg/yarn/issues/1694" target="_blank" style="background-color: rgb(255, 255, 255);">post your findings on this GitHub issue</a>.</p><p>No problem though: we can still use our good friend <a href="http://docs.myget.org/docs/reference/myget-npm-support" target="_blank">npm to handle package publishing</a>.</p> 
 
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

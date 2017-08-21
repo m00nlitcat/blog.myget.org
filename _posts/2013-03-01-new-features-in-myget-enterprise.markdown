@@ -29,4 +29,4 @@ redirect_from:
 <p>By default, the user and its feeds will be removed. This is not always something you will want to do: what if that user is the owner of a production MyGet feed? The delete user dialog allows you to transfer feed ownership for all of the user&rsquo;s feed to another user in your organization.</p>
 <p>More information about our MyGet Enterprise plan can be found on the <a href="http://www.myget.org/plans">MyGet Enterprise plan</a> page.</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

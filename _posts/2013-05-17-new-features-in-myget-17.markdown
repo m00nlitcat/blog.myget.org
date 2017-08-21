@@ -39,4 +39,4 @@ redirect_from:
 <p>The page load speed of MyGet has improved as well. We&rsquo;ve been working on optimizing file sizes, compression and are using CSS sprites for many of our images.</p>
 <p>We hope you like this new drop. Let us know your thoughts in the comments below!</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

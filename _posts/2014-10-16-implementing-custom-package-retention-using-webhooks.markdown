@@ -63,4 +63,4 @@ http://www.CodeHighlighter.com/
 <p>When this hook now triggers, we will be retaining just the 5 latest minor versions of a package (ignoring prereleases).</p>
 <p>That’s it. Using nothing but webhooks, we can run our own retention policies (or other logic) when something happens on our feed (like <a href="http://blog.maartenballiauw.be/post/2014/09/10/Automatically-strong-name-signing-NuGet-packages.aspx">strong-name signing packages</a>, for example). There are <a href="http://docs.myget.org/docs/reference/webhooks">a number of events</a> that we can subscribe to!</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

@@ -116,4 +116,4 @@ http://www.CodeHighlighter.com/
 <p><a href="/images/image_131.png"><img width="800" height="560" title="Installing node module from private npm registry" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" alt="Installing node module from private npm registry" src="/images/image_thumb_129.png" border="0"></a></p>
 <p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

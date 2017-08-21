@@ -136,4 +136,4 @@ redirect_from:
 <li>Build status is refreshed automatically.</li>
 </ul>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

@@ -18,4 +18,4 @@ redirect_from:
 <p>You can set up these multiple identities (and GitHub) on your <a href="http://www.myget.org/Profile" target="_blank">profile page</a>. Follow the <a href="http://www.myget.org/Profile/AssociateIdentityProvider" target="_blank">Add</a> identity provider hyperlink and complete the process.</p>
 <p><a href="/images/image_11.png"><img style="background-image: none; margin: 5px auto; padding-left: 0px; padding-right: 0px; display: block; float: none; padding-top: 0px; border-width: 0px;" title="image" src="/images/image_thumb_10.png" alt="image" width="484" height="240" border="0" /></a></p>
 <p>Happy packaging!</p>
-{% include imported_disclaimer.html %}
+

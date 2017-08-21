@@ -28,4 +28,4 @@ redirect_from:
 <p>Know that you can reach out to us through <a href="http://myget.uservoice.com">UserVoice</a> or <a href="mailto:info@myget.org">info@myget.org</a>! Let us know your thoughts, feature requests or anything else you would like to share! MyGet is your product, and we want to make sure it stays that way. We&rsquo;re just the code monkeys making sure you can host your packages and dependencies in a reliable and useful way.</p>
 <p>Happy packaging!</p>
 <p>Maarten &amp; Xavier <br />The MyGet Team</p>
-{% include imported_disclaimer.html %}
+

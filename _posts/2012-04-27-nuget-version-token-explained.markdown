@@ -35,4 +35,4 @@ redirect_from:
 <li>NuGet totally ignores the <em>AssemblyFileVersion</em> attribute.</li>
 </ul>
 <p>Note that this behavior is the same when skipping the nuspec at all and building a nuget package directly from an assembly, using <em>using nuget pack &lt;assembly.dll&gt;</em>.</p>
-{% include imported_disclaimer.html %}
+

@@ -14,4 +14,4 @@ redirect_from:
 ---
 
 <p>Ever wondered where a package comes from, or if it exists on any of your package sources? Our latest deployment features a tiny little gem on the package details page which gives us that information:</p> <p><a href="/images/image_80.png"><img width="640" height="220" title="Package found on" style="border: 0px currentColor; padding-top: 0px; padding-right: 0px; padding-left: 0px; display: inline; background-image: none;" alt="Package found on" src="/images/image_thumb_78.png" border="0"></a></p> <p>MyGet will query all configured package sources and check if the package exists on there. If it does, a link to it will be displayed in the package details page.</p> <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

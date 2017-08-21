@@ -17,4 +17,4 @@ redirect_from:
 <p>During that timeframe, we will disable any synchronization we have in place with SymbolSource. Synchronization will pick up after our deployment.</p>
 <p>We expect <strong>no</strong> other interruptions in service during this time frame, except for maybe a few seconds when switching VIPs.</p>
 <p>Stay tuned!</p>
-{% include imported_disclaimer.html %}
+

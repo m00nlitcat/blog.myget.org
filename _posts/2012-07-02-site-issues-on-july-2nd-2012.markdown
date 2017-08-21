@@ -84,4 +84,4 @@ http://www.CodeHighlighter.com/
 <p>Happy packaging!</p>
 
 <p>The MyGet team</p>
-{% include imported_disclaimer.html %}
+

@@ -20,4 +20,4 @@ redirect_from:
 <p><a href="https://www.myget.org/profile/Me#!/AccessTokens">Go ahead</a> and separate the credentials you use personally, on the build server or in other software. Access tokens can be created and revoked at any time.</p>
 <p><a href="/images/image_78.png"><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin: 0px auto; display: block; padding-right: 0px; border: 0px;" title="image" src="/images/image_thumb_76.png" alt="image" width="640" height="352" border="0" /></a></p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

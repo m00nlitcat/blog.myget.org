@@ -81,4 +81,4 @@ redirect_from:
 <p>We won't enforce you in using SemVer as this would introduce friction for those who don't want to use it. It's not up to the repository host to define your versioning approach: this is the responsibility of the feed owner. This is impossible on <a href="http://www.nuget.org" target="_blank">NuGet.org</a> as the feed is owned by the Community, which is definitely not organized around a single common versioning scheme.</p>
 <p>However, if you - as a MyGet feed owner - want to enforce it, then you can by simply <a href="/post/2013/02/20/Require-semantic-versioning-for-packages-pushed-to-your-feed.aspx" target="_blank">checking the appropriate checkbox in your feed settings</a>. We try to find a balance between removing friction and providing freedom in your choices, so we hope you like it! Don't hesitate to send us your feedback or log them on our <a href="http://myget.uservoice.com" target="_blank">UserVoice</a>.</p>
 <p><em>Happy Packaging!</em></p>
-{% include imported_disclaimer.html %}
+

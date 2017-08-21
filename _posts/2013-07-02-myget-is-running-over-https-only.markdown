@@ -22,4 +22,4 @@ Discover-PackageSources -Url https://www.myget.org/Discovery/Feed/<feedname> -Ov
 <p>Do not hesitate to contact us if you have additional questions through the comments below.</p>
 <p><em>Happy packaging!</em></p>
 <p>PS: If you are a MyGet Enterprise customer and are using your own domain name, no action isrequired on your side.</p>
-{% include imported_disclaimer.html %}
+

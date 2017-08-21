@@ -27,4 +27,4 @@ redirect_from:
 </ul>
 <p>Bugs and feature requests? Feel free to post them as a comment below.&nbsp;</p>
 <p>Enjoy <a href="http://myget.org">http://myget.org</a>!</p>
-{% include imported_disclaimer.html %}
+

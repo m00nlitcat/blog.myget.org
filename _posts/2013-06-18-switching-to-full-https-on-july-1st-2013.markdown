@@ -36,4 +36,4 @@ Discover-PackageSources -Url <a href="https://www.myget.org/Discovery/Feed/">htt
 <p><br />We are confident this one-time change will make the entire MyGet experience even more secure.</p>
 <p>Do not hesitate to contact us if you have additional questions.</p>
 <p>Best regards, <br />the MyGet team</p>
-{% include imported_disclaimer.html %}
+

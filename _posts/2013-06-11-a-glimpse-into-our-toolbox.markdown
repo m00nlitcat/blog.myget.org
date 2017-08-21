@@ -27,4 +27,4 @@ redirect_from:
 <p><a href="/images/image_62.png"><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="Glimpse request timeline" src="/images/image_thumb_60.png" alt="Glimpse request timeline" width="640" height="370" border="0" /></a></p>
 <p>We are also able to intercept and debug AJAX requests. If you are using Entity Framework or ADO.NET, expect to see your queries in here. If you&rsquo;re developing mobile web applications, expect to be able to <a href="http://getglimpse.com/Help/History-Tab">intercept remote calls</a> as well. And the best thing: <a href="https://github.com/glimpse/glimpse">this is open source</a>!</p>
 <p><em>Happy packaging! And happy Glimpsing!</em></p>
-{% include imported_disclaimer.html %}
+

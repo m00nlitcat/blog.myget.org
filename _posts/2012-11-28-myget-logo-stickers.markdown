@@ -29,4 +29,4 @@ redirect_from:
 <li><a href="http://www.microsoft.com/belux/techdays/2012/Home.aspx" target="_blank">TechDays Belgium</a>, 5-7 March, Belgium</li>
 </ul>
 <div>See you there &amp; Happy Packaging!</div>
-{% include imported_disclaimer.html %}
+

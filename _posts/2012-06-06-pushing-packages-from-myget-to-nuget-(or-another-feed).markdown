@@ -26,4 +26,4 @@ redirect_from:
 <p>After clicking the &ldquo;Push&rdquo; button, MyGet will present you with an overview of the package which will be pushed to another feed. Select the feed to which you want to push and verify the other fields. When pushing a prerelease package to a stable package, simply make the Prerelease tag field blank. You can also modify the prerelease tag if wanted. If you do intend to push a prerelease version, simply continue clicking the &ldquo;Push&rdquo; button.</p>
 <p><a href="/images/image_7.png"><img style="background-image: none; margin: 5px auto; padding-left: 0px; padding-right: 0px; display: block; float: none; padding-top: 0px; border-width: 0px;" title="Push a NuGet package" src="/images/image_thumb_6.png" alt="Push a NuGet package" width="484" height="270" border="0" /></a></p>
 <p>Told you it was easy. MyGet will now push the package to the selected feed and inform you by e-mail should anything go wrong. Happy packaging!</p>
-{% include imported_disclaimer.html %}
+

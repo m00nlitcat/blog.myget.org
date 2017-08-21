@@ -33,4 +33,4 @@ redirect_from:
 <div style="display: inline-block;"><img src="/images/2012/2/searchfromfeed.png" alt="" /></div>
 <div>In a second phase, I hope to add some more useful functionality to this feature, such as search by Author, OSS license type, ...</div>
 <div>Feel free to suggest the ones you feel are really missing.</div>
-{% include imported_disclaimer.html %}
+

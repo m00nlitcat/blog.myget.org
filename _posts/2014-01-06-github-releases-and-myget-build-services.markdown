@@ -25,4 +25,4 @@ redirect_from:
 <p><a href="/images/image_75.png"><img width="640" height="404" title="Integrating GitHub Releases and MyGet" style="border-width: 0px; margin: 5px auto; padding-top: 0px; padding-right: 0px; padding-left: 0px; float: none; display: block; background-image: none;" alt="Integrating GitHub Releases and MyGet" src="/images/image_thumb_73.png" border="0"></a></p>
 <p>Pretty sweet, no? Let us know your thoughts through the comments below or in our <a href="http://myget.uservoice.com/forums/135675-general">forums</a>!</p>
 <p><em>Happy packaging and shipping!</em></p>
-{% include imported_disclaimer.html %}
+

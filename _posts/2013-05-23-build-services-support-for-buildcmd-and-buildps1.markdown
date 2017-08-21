@@ -24,4 +24,4 @@ redirect_from:
 </ul>
 <p>Build.bat and build.cmd can be simple batch files which perform builds and packaging. Build.ps1 can be a PowerShell script which will be invoked. Our <a href="/post/2013/03/22/Whats-new-in-Build-Services.aspx">Build Services overview blog post</a> provides more detail on environment variables and tools that can be used.</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

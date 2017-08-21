@@ -35,4 +35,4 @@ Move</span><span style="color: rgb(0, 0, 0);">-</span><span style="color: rgb(0,
 Write</span><span style="color: rgb(0, 0, 0);">-</span><span style="color: rgb(0, 0, 0);">Host </span><span style="color: rgb(128, 0, 0);">"</span><span style="color: rgb(128, 0, 0);">Finished building Chocolatey packages.</span><span style="color: rgb(128, 0, 0);">"</span></div></pre><!-- Code inserted with Steve Dunn's Windows Live Writer Code Formatter Plugin.  http://dunnhq.com --></div>
 <p>Once a build is triggered on MyGet, this script will execute and create (and upload) Chocolatey packages to our MyGet feed, which we can then install on our system.</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

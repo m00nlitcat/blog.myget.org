@@ -18,4 +18,4 @@ redirect_from:
 <p>Many people asked us for this feature. The main scenario these users referred to was having feeds for development and production, having feeds per branch and so on with a recognizable prefix.</p>
 <p>Since we deployed it in our staging environment, we&rsquo;ve been using it continuously ourselves. Every support request that comes in and requires investigation is prefixed with &ldquo;support-&ldquo;. When we develop a new feature and test it on a given feed, we typically prefix those feeds with &ldquo;dev-". I even saw a &ldquo;chuck-norris-was-here&rdquo; feed appearing during development. We hope you like this as much as we do!</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

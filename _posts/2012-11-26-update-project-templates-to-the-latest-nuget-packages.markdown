@@ -56,4 +56,4 @@ redirect_from:
 <p>Once downloaded, unblock the package (right-click, properties, unblock), copy it to the packages directory (C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Packages). Next, unzip it, and remove all <em>garbage</em>. The relevant content is selected on the following screenshot. Ensure you rename the .nuspec file by adding the version in front of it, e.g. jquery.1.8.2.nuspec.</p>
 <p><img style="float: none;" src="https://xavierdecoster.blob.core.windows.net/blog/2012-11-24/2012-11-24_2235.png" alt="Relevant package contents" width="600" /></p>
 <p>From now on, all newly created <em>default</em> MVC4 CSHTML Web projects will already contain the updated jQuery dependency.</p>
-{% include imported_disclaimer.html %}
+

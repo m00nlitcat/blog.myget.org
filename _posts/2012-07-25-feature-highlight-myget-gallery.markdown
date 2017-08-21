@@ -30,4 +30,4 @@ redirect_from:
 <p><a href="/images//2012/08/activitystream_comingsoon.png" target="_blank"><img style="border: 1px solid #cccccc; margin: 0px; padding: 0px; float: none;" src="/images//2012/08/activitystream_comingsoon.png" alt="" width="550" /></a></p>
 <p>We hope you like it! Keep those suggestions and feedback coming! Who knows, maybe one day you'll see your wish granted :)</p>
 <p>Happy packaging!</p>
-{% include imported_disclaimer.html %}
+

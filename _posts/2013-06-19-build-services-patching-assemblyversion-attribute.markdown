@@ -24,4 +24,4 @@ redirect_from:
 </ul>
 <p>Patching of these attributes will occur whenever the feature is enabled, no matter which build process is used (solution, project or build.bat).</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

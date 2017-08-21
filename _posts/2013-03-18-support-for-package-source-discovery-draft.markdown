@@ -37,4 +37,4 @@ Discover-PackageSources -Url <a href="http://&lt;your website&gt;">http://&lt;yo
 <p>We&rsquo;ve added a discovery on the MyGet gallery. When using <a href="http://www.myget.org/gallery">http://www.myget.org/gallery</a> as the discovery URL, all gallery feeds will be registered in your NuGet.config file. Every feed on the gallery in itself also provides discovery, for example ScriptCS has a discovery endpoint at <a title="http://www.myget.org/gallery/scriptcsnightly" href="http://www.myget.org/gallery/scriptcsnightly">http://www.myget.org/gallery/scriptcsnightly</a>.</p>
 <p>Please provide feedback on the <a href="https://github.com/myget/PackageSourceDiscovery">Package Source Discovery specification</a>. Comments on the MyGet implementation are also welcome!</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

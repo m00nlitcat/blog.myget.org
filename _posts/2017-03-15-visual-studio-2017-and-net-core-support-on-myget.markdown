@@ -20,4 +20,4 @@ redirect_from:
     &lt;PackageTags&gt;hello world core&lt;/PackageTags&gt;<br>    &lt;GeneratePackageOnBuild&gt;True&lt;/GeneratePackageOnBuild&gt;<br><span style="font-weight: bold;">    &lt;IncludeSymbols&gt;True&lt;/IncludeSymbols&gt;<br>    &lt;IncludeSource&gt;True&lt;/IncludeSource&gt;</span><br>  &lt;/PropertyGroup&gt;
 
 &lt;/Project</code>&gt;</pre><p>Commit, push, and let MyGet handle the build and serve up debugger symbols.</p><p><span style="font-style: italic;">Happy packaging! (and building)</span></p>
-{% include imported_disclaimer.html %}
+

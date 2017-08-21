@@ -18,4 +18,4 @@ redirect_from:
 <p>This new tab currently features two options: &ldquo;forbid overwriting of existing packages&rdquo; and &ldquo;forbid packages which are non-compliant with Semantic Version&rdquo;. The first one is obvious: when enabled, MyGet will refuse overwriting existing packages on your feed. This makes it possible to achieve an important goal: have a guarantee that a given, known package is always exactly the same package in the future.</p>
 <p>Enabling the &ldquo;forbid packages which are non-compliant with Semantic Version&rdquo; option allows you to block uploading of packages that are not <a href="http://www.semver.org">SemVer</a> compatible. Version numbers like <em>1.0.0 </em>and <em>1.5.12559</em> will be allowed as well as <em>1.0.0-PRE</em>. Package versions like <em>1.0.0.0</em> and <em>1.5.1.13369</em> will be blocked.</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

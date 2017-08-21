@@ -57,4 +57,4 @@ redirect_from:
 <p>You can see the list of available addins by clicking the Available section of the dialog. To install the Mono Addin select it and click the Install button. The addin will be available after SharpDevelop is restarted.</p>
 <p><em>Matt Ward is developer at </em><a href="http://pebblecode.com/"><em>Pebble Code</em></a><em>. In his spare time he works on SharpDevelop, which he has been involved with since 2004, and more recently has been working on a </em><a href="https://github.com/mrward/monodevelop-nuget-addin"><em>NuGet addin for MonoDevelop and Xamarin Studio</em></a><em>.</em></p>
 <p><em>Blog: </em><a href="http://community.sharpdevelop.net/blogs/mattward"><em>community.sharpdevelop.net/blogs/mattward</em></a><em> Twitter: </em><a href="http://twitter.com/sharpdevelop"><em>@sharpdevelop</em></a></p>
-{% include imported_disclaimer.html %}
+

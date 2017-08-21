@@ -20,4 +20,4 @@ redirect_from:
 <p>You can opt-in to be listed in the MyGet Gallery too. Simply navigate to your feeds and edit the settings under the MyGet Gallery tab. You can select to be either listed or unlisted in the MyGet Gallery. It&rsquo;s also possible to add a logo of choice.</p>
 <p><a href="/images/image_9.png"><img style="background-image: none; margin: 5px auto; padding-left: 0px; padding-right: 0px; display: block; float: none; padding-top: 0px; border-width: 0px;" title="image" src="/images/image_thumb_8.png" alt="image" width="484" height="218" border="0" /></a></p>
 <p>Happy packaging!</p>
-{% include imported_disclaimer.html %}
+

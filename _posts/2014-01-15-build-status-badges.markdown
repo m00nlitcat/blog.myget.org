@@ -22,4 +22,4 @@ redirect_from:
 <pre>[![GoogleAnalyticsTracker Nightly Build Status](https://www.myget.org/BuildSource/Badge/googleanalyticstracker?identifier=479ff619-28f2-47c0-9574-2774ed0cd855)](https://www.myget.org/gallery/googleanalyticstracker)</pre>
 
 <p>Of course, you can also use it in any other markup language that supports embedding images.</p> <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

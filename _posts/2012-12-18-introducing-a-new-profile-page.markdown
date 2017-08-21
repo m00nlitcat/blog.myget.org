@@ -19,4 +19,4 @@ redirect_from:
 <p><a href="/images/image_27.png"><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin: 5px auto; display: block; padding-right: 0px; border-width: 0px;" title="image" src="/images/image_thumb_25.png" alt="image" width="484" height="110" border="0" /></a></p>
 <p>Yes, you&rsquo;re seeing what we&rsquo;re up to: in one of our next releases, we&rsquo;ll be providing you with activity streams that give you an overview of what&rsquo;s happening on a given feed or by a specific user.</p>
 <p>Happy packaging!</p>
-{% include imported_disclaimer.html %}
+

@@ -30,4 +30,4 @@ http://www.CodeHighlighter.com/
 <p><a href="/images/image_96.png"><img width="484" height="413" title="Specify DependencyVersion switch with MyGet" style="border: 0px currentColor; border-image: none; padding-top: 0px; padding-right: 0px; padding-left: 0px; display: inline; background-image: none;" alt="Specify DependencyVersion switch with MyGet" src="/images/image_thumb_94.png" border="0"></a></p>
 <p>This should greatly help in getting your preferred packages installed instead of having to install and manually update dependency versions to the required version for your project. For more information about the DependencyVersion switch, do check the <a href="http://docs.nuget.org/docs/reference/package-manager-console-powershell-reference#Install-Package">NuGet documentation</a>.</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

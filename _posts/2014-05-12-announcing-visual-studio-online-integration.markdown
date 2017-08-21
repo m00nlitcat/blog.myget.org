@@ -59,4 +59,4 @@ redirect_from:
 </div><p><img alt="" src="/images/042914_1538_AnnouncingV17.png">
 			</p></li></ol><h1>We aim to please
 </h1><p><a href="https://vsipprogram.com/Directory#?query=myget" target="_blank"><img align="right" style="max-width: 210px;" src="/FILES/2014/05/vs_partner_logo.png.axdx"></a><span style="line-height: 1.4285;">We hope you are happy with this brand new VSO support and will put it to good use! We'd also like to express our gratitude to the Microsoft VSO team for enabling this type of extensibility as well as guiding us through this integration effort. A smooth, integrated user experience to reduce development friction is one of our main goals, and we hope these scenarios will prove to be a great help.</span></p><p><span style="line-height: 1.4285;">Feel free to <a href="http://myget.uservoice.com/">send us your feedback or feature requests</a>!</span></p><p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

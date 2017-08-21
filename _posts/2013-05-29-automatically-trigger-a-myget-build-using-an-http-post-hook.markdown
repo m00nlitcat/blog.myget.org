@@ -18,4 +18,4 @@ redirect_from:
 <p>The HTTP POST hook URL is a mechanism to allow your Source Code Repository to notify MyGet Build Services (via an HTTP POST to the given URL) when a commit has occurred. As soon as this has happened, a new build will automatically be triggered.</p>
 <p>MyGet user <a href="http://www.twitter.com/gep13">gep13</a> has written a <a href="http://docs.myget.org/docs/how-to/auto-trigger-a-myget-build-using-an-http-post-hook-url">detailed tutorial on working with Build Services and HTTP POST hooks</a> on our documentation website.</p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

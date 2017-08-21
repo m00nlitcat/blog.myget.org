@@ -25,4 +25,4 @@ redirect_from:
 <p>And of course, all packages on our feed are included in the ZIP file as well:</p>
 <p><a href="/images/image_34.png"><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="NuGet packages in ZIP" src="/images/image_thumb_32.png" alt="NuGet packages in ZIP" width="351" height="143" border="0" /></a></p>
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

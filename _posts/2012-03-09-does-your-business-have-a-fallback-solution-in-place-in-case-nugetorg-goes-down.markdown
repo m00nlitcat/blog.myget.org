@@ -16,4 +16,4 @@ redirect_from:
 <p>Let the world know its current situation!</p>
 <script type="text/javascript" src="http://twtpoll.com/js/ibadge.js"></script>
 <p><iframe id="twpw_if" name="twpw_if" src="http://twtpoll.com/badge/if/?twt=q90n1t&amp;tbg=1&amp;b=1&amp;bt=1" frameborder="0" scrolling="no" width="100%" height="400">Your browser doesn't support iFrames :( Vote for this poll &lt;a title="here" href="http://twtpoll.com/q90n1t" target="_blank" data-mce-href="http://twtpoll.com/q90n1t"&gt;here&lt;/a&gt;.</iframe></p>
-{% include imported_disclaimer.html %}
+

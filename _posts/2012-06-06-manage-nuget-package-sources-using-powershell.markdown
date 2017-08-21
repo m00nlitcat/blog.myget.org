@@ -33,4 +33,4 @@ redirect_from:
 <pre class="brush: powershell;">Add-PackageSource "My MyGet feed" "http://www.myget.org/F/myfeedname/"</pre>
 </div>
 <p>If you're interested into the sources, you can obviously unzip the NuGet package or browse the code on <a href="https://github.com/myget/NuGetPackages" target="_blank">our GitHub repository</a>. Feel free to contribute your own extensions and improvements!</p>
-{% include imported_disclaimer.html %}
+

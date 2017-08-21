@@ -23,4 +23,4 @@ redirect_from:
 <p>From now on, we can publish and consume any package that has the <code>@acmecorp</code> scope. Npm will automatically direct requests to the correct registry. 
 <p><em>Happy packaging!</em>
 <p>P.S.: We have VSIX support coming as well. Let us know if you want to <a href="/post/2015/04/07/limited-preview-vsix-support.aspx">enroll in the preview</a>.</p>
-{% include imported_disclaimer.html %}
+

@@ -23,4 +23,4 @@ redirect_from:
 <p>&nbsp;</p>
 <p align="left">&nbsp;</p>
 <p align="left"><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

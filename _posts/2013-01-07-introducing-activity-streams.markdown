@@ -22,4 +22,4 @@ redirect_from:
 <p>The below screenshot also gives you an idea of the kind of activity you might be interested in: adding or deleting packages, unlisting packages, <a href="/post/2012/03/01/Introducing-MyGet-package-source-proxy-(beta).aspx">pushing packages to an upstream package source</a> (e.g. to NuGet.org), etc. The particular feed activity you can see below is the result of <a href="/post/2012/11/21/How-I-push-GoogleAnalyticsTracker-to-NuGet.aspx">how we push the GoogleAnalyticsTracker package to NuGet.org</a>.</p>
 <p style="text-align: center;"><a href="/images/010713_1655_Introducing3.png"><img style="float: none;" src="/images/010713_1655_Introducing3.png" alt="" width="600" /></a></p>
 <p>Happy New Year &amp; Happy Packaging!</p>
-{% include imported_disclaimer.html %}
+

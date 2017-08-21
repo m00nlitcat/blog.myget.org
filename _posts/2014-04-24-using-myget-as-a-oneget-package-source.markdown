@@ -50,4 +50,4 @@ redirect_from:
 <img style="max-width: 650px;" alt="Install a software package from a specific OneGet feed" src="https://xavierdecoster.blob.core.windows.net/blog/2014-04-18/2014-04-04_1141_001.png">
 <p>This flow allows you to control what packages get distributed through OneGet, avoids the need to publish your internal software to the general public, and still allows you to leverage the great new scenarios that OneGet offers!</p>
 <p>As usual, happy packaging! :)</p>
-{% include imported_disclaimer.html %}
+

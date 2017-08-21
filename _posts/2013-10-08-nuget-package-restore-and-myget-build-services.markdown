@@ -35,4 +35,4 @@ redirect_from:
 <p>Let us know what you think about this feature through the comments below or in our <a href="http://myget.uservoice.com/forums/135675-general">forums</a>!</p>
 
 <p><em>Happy packaging!</em></p>
-{% include imported_disclaimer.html %}
+

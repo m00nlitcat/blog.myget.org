@@ -24,4 +24,4 @@ redirect_from:
 <p>The little checkbox at the bottom saying <em>"Only show latest version of each package Id."</em>&nbsp;is interacting with the IsLatestVersion property of the packages.</p>
 <div style="display: inline-block;"><img src="/images/2012/2/pe15testlatestversiononly.png" alt="" /></div>
 <p>Enjoy!</p>
-{% include imported_disclaimer.html %}
+
