@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PHP Composer packages just arrived on MyGet"
-date: 2017-09-11 07:42:02 +0100
+date: 2017-09-11 07:42:03 +0100
 comments: true
 published: true
 categories: ["post"]
@@ -11,7 +11,7 @@ author: "Maarten Balliauw"
 
 <img src="/images/2017/09/logo-php-composer.png" alt="MyGet supports hosting private PHP Composer packages" align="right" />
 
-Good news everyone! We just shipped <a href="https://www.phpcomposer.org/" target="_blank">PHP Composer</a> support (preview)! If you are building PHP applications and libraries, you can now package them and add these to your MyGet feeds.
+Good news everyone! We just shipped <a href="https://www.getcomposer.org/" target="_blank">PHP Composer</a> support (preview)! If you are building PHP applications and libraries, you can now package them and add these to your MyGet feeds.
 
 PHP Composer support is still in preview and **[must be enabled on your MyGet subscription](https://www.myget.org/Home/GiveMeComposer) - click [here](https://www.myget.org/Home/GiveMeComposer) to do so**. Once enabled, you will have access to the <a href="https://docs.myget.org/docs/walkthrough/getting-started-with-php-composer" target="_blank">PHP Composer features described in our documentation</a>
 
