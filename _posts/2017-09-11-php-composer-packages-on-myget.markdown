@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PHP Composer packages just arrived on MyGet"
-date: 2017-09-11 07:42:03 +0100
+date: 2017-09-11 07:43:03 +0100
 comments: true
 published: true
 categories: ["post"]
@@ -11,9 +11,9 @@ author: "Maarten Balliauw"
 
 <img src="/images/2017/09/logo-php-composer.png" alt="MyGet supports hosting private PHP Composer packages" align="right" />
 
-Good news everyone! We just shipped <a href="https://www.getcomposer.org/" target="_blank">PHP Composer</a> support (preview)! If you are building PHP applications and libraries, you can now package them and add these to your MyGet feeds.
+Good news everyone! We just shipped <a href="https://www.getcomposer.org/" target="_blank">PHP Composer</a> support on <a href="https://www.myget.org/php-composer">MyGet</a>! If you are building PHP applications and libraries, you can now package them and add these to your MyGet feeds.
 
-PHP Composer support is still in preview and **[must be enabled on your MyGet subscription](https://www.myget.org/Home/GiveMeComposer) - click [here](https://www.myget.org/Home/GiveMeComposer) to do so**. Once enabled, you will have access to the <a href="https://docs.myget.org/docs/walkthrough/getting-started-with-php-composer" target="_blank">PHP Composer features described in our documentation</a>
+PHP Composer support is available for all MyGet accounts - check the <a href="https://docs.myget.org/docs/walkthrough/getting-started-with-php-composer" target="_blank">PHP Composer features described in our documentation</a>
 
 ## Which features are available?
 
@@ -25,7 +25,7 @@ Build services are supported as well: as long as there is a `composer.json` in y
 
 ## Sounds great! How do I get started?
 
-Quite easy: head over to [www.myget.org](http://www.myget.org), sign in (or register), and make sure to **[enable PHP Composer on your MyGet subscription](https://www.myget.org/Home/GiveMeComposer)**. Once done, you can create a feed and start adding packages. Our [getting started documentation](https://docs.myget.org/docs/walkthrough/getting-started-with-php-composer) has some more details on how to upload your first PHP Composer package to MyGet.
+Quite easy: head over to [www.myget.org](http://www.myget.org) and sign in (or register). You can then create a feed and start adding packages. Our [getting started documentation](https://docs.myget.org/docs/walkthrough/getting-started-with-php-composer) has some more details on how to upload your first PHP Composer package to MyGet.
 
 We're really excited about introducing PHP Composer support on MyGet! You can now use MyGet to securely host and collaborate on NuGet, symbols and sources, Chocolatey, PowerShell, NPM, Bower, Maven, PHP Composer and VSIX packages.
 
