@@ -19,7 +19,7 @@ MyGet is hosted on Microsoft Azure and has regional deployments in Europe and US
 
 The shared tenant has its primary deployment in the West Europe region, and a secondary in US East. We use Azure Cloud Services to deploy both Web and Worker roles, and apply auto-scaling policies on both to ensure the service scales as needed.
 
-On average, the shared tenant has 4 Web roles and 4 worker roles deployed in each region, and scales in and out multiple times (minimum 2 instances per role, up to 8 during peak moments). Judging by the observed peak moments, all of us restore most packages in the morning (which is multiple times a day when running a global service).
+On average, the shared tenant has 4 Web roles and 4 Worker roles deployed in each region, and scales in and out multiple times (minimum 2 instances per role, up to 8 during peak moments). Judging by the observed peak moments, all of us restore most packages in the morning (which is multiple times a day when running a global service, but mostly EU CET morning and US PST morning).
 
 ## Reliability
 
@@ -27,7 +27,7 @@ Being developers ourselves, we know how frustrating it is when a service you use
 
 The most interesting data point for package consumers is likely the following one: package download uptime. We're happy to share that, in 2017, we're currently on track to exceed the 99.99% uptime goal we set ourselves!
 
-Currently, the package download endpoint has an uptime percentage of **99.992%**! In other words, the endpoint has been down for 35 minutes in 2017, spread out over 5 different days, so that's 5 days this year with an average interruption of less than 7 minutes. If you didn't do a restore during those brief interruptions, you likely haven't noticed this interruption at all. If you did, we're very sorry, and please know that we'll continue to work hard to further improve on this metric.
+Currently, the package download endpoint has an uptime percentage of **99.991%**! In other words, the endpoint has been down for 40 minutes in 2017, spread out over 6 different days, so that's 6 days this year with an average interruption of less than 6 minutes and 40 seconds. If you didn't do a restore during those brief interruptions, you likely haven't noticed this interruption at all. If you did, we're very sorry, and please know that we'll continue to work hard to further improve on this metric.
 
 ## Storage, traffic and bandwidth
 
