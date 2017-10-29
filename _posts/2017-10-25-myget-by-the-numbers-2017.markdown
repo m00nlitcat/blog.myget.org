@@ -38,7 +38,7 @@ Our shared tenant currently hosts **over 20 million packages** (in comparison, t
 **On a monthly basis, over 550K packages are pushed to this tenant**, with an average success rate of **98.05%**. Success means: the package actually ends up on the feed. So 1.95% of packages are rejected because they fail server-side validation.
 Wednesday and Thursday seem to be the most productive days of the week with around **45K packages pushed on a single day**!
 
-In terms of bandwidth, MyGet's shared `www.` tenant serves around **10M requests a day** with an **average response time of 93.58ms**, accounting for **220GB egress, and 40GB ingress per day**. On a monthly basis, MyGet tenants generate **8.7TB egress traffic**!
+In terms of bandwidth, MyGet's shared `www.` tenant serves around **10M requests a day** with an **average response time of 93.58ms**, accounting for **220GB egress, and 40GB ingress per day**. If we add CDN egress to those numbers, we end up with **410GB egress per day**. On a monthly basis, this single MyGet tenant accounts for **12TB egress traffic**!
 
 MyGet currently handles approx. **200 requests / second on average**, with regular peaks up to **500 requests / second**, and every now and then we experience a **burst of 2000 requests / second** hammering our service.
 
