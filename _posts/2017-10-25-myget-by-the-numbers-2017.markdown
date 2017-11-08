@@ -29,7 +29,7 @@ The most interesting data point for package consumers is likely the following on
 
 Currently, the package download endpoint has an uptime percentage of **99.991%**! In other words, the endpoint has been down for 40 minutes in 2017, spread out over 6 different days, so that's 6 days this year with an average interruption of less than 6 minutes and 40 seconds. If you didn't do a restore during those brief interruptions, you likely haven't noticed this interruption at all. If you did, we're very sorry, and please know that we'll continue to work hard to further improve on this metric.
 
-## Storage, traffic and bandwidth
+## Scalability: storage, traffic and bandwidth
 
 The below numbers include all supported package types.
 
@@ -44,33 +44,28 @@ MyGet currently handles approx. **200 requests / second on average**, with regul
 
 And these are just the numbers for our shared tenant. We have MyGet Enterprise customers exceeding these metrics with ease.
 
-## Unique scalability challenges
-
 One of those other tenants, which many of you may know and use, is the .NET Foundation tenant (hosted at [dotnet.myget.org](https://dotnet.myget.org)).
-This tenant is the home of the [`dotnet-core`](https://dotnet.myget.org/gallery/dotnet-core) NuGet feed, which on its own already consumes **over 3TB of blob storage**. 
+This tenant is the home of e.g. the [`dotnet-core`](https://dotnet.myget.org/gallery/dotnet-core) NuGet feed, which in itself already consumes **over 3TB of blob storage**. 
 
 ![](../Images/2017/10/dotnet-core.png)
 
-Hosting **over 840K package versions not evenly distributed over just 2000 unique package id's** is something the NuGet clients do not like, and the NuGet protocols can't handle efficiently at this point. 
+Hosting **over 840K package versions not evenly distributed over just 2000 unique package id's** is something that NuGet clients do not like, and the NuGet protocols can't handle very efficiently today. This is a unique scalability challenge that is likely to surface on nuget.org too at some point (or maybe [already has for some packages with many versions](https://github.com/NuGet/NuGetGallery/issues/4859#issuecomment-337455878), e.g. Fake and RavenDb.Client). In fact, [we reported a very detailed issue](https://github.com/NuGet/Home/issues/4448) discussing this.
 
-This is a unique scalability challenge that is likely to surface on nuget.org too at some point in the future (or maybe [already has for some packages with many versions](https://github.com/NuGet/NuGetGallery/issues/4859#issuecomment-337455878), e.g. Fake and RavenDb.Client). In fact, [we reported a very detailed issue](https://github.com/NuGet/Home/issues/4448) discussing this.
-
-We have a few ideas on how MyGet can potentially deal with such scenarios better going forward, but until then, we'd strongly recommend to apply  [retention policies](https://docs.myget.org/docs/reference/package-retention), or archive the package versions you no longer need on a different feed, to get them out of the package restore "hot path".
+We have a few ideas on how MyGet can potentially deal with such scenarios better going forward, but until we handled that, we strongly recommend you to apply some [retention policies](https://docs.myget.org/docs/reference/package-retention), or archive the package versions you no longer need (on a different feed, on a tape drive, whatever works for you).
 You can in fact automate this today leveraging our [webhooks](https://docs.myget.org/docs/reference/webhooks) support. We even have a sample [custom retention policy implementation using webhooks](https://docs.myget.org/docs/reference/package-retention#Custom_package_retention_rules_using_webhooks) for you to build upon.
 
 This recommendation is not only applicable to NuGet, but applies to all package types. Ensuring a smooth experience is much easier when only retaining the packages you actually need. And, as it turns out, some package manager protocols are much more efficient in dealing with this than others.
 
-## Support requests
-
-At MyGet, we try to offer the best package management experience possible, and to do so, we want to provide great documentation and excellent support.
-
-However, as the service grows, so does the number of support requests we get. This year so far, we've handled over **850 tickets, worth over 2300 responses** to your inquiries. This doesn't scale well, so we're planning an effort to further improve our [documentation](https://docs.myget.org) in the coming months, and improve the self-servicability of our [knowledgebase](https://myget.freshdesk.com/support/solutions). In fact, we're looking for a freelance technical writer to help us out, so if you are interested: [contact us](https://www.twitter.com/MyGetTeam)!
-
 ## Customer satisfaction
 
-This is what really drives us: customer success! A successful customer is a satisfied customer, so customer satisfaction (also known as CSAT) is a good indicator for how successful you are in using our services.
+This is what really drives us: customer success! 
+MyGet can only be successful when you are, our customers. 
+Customer satisfaction (also known as CSAT) is a good indicator for how successful you are in using our services.
 
-We're conducting another Net Promotor Score (NPS) survey to keep in touch with *your* experience, and we're really happy with the numbers so far! Thank you all who already provided feedback, and thank you for your continued trust and support!
+We're conducting another Net Promotor Score (NPS) survey to keep in touch with *your* experience, and we're really happy with the feedback we got from you so far! 
+Thank you all who already provided feedback, and thank you for your continued trust and support!
 
 If you like what we're doing at MyGet and didn't get a chance to respond to the survey, we'd really appreciate if you could spend 10 seconds to let us know how we're doing: **[How likely are you to recommend MyGet?](https://www.surveybuilder.com/s/1bV59)**! 
-Also if you don't like something about MyGet, please tell us why and how we can do better.
+And if there's anything we can and should improve, let us know!
+
+*Happy packaging!*
