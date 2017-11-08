@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MyGet by the numbers 2017"
-date: 2017-11-03 13:00:00 +0200
+date: 2017-11-17 13:00:00 +0200
 comments: true
 published: true
 categories: ["post"]
