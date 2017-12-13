@@ -17,7 +17,7 @@ Next to some new features and many fixes, this 2017.2 release of MyGet again add
 
 Major highlights of this release are: 
 
-* We added **PHP Composer** support, and welcome PHP developers to the MyGet family! ([Announcement](https://blog.myget.org/post/2017/09/11/php-composer-packages-on-myget.html) | [Docs](docs/walkthrough/getting-started-with-php-composer))
+* We added **PHP Composer** support, and welcome PHP developers to the MyGet family! ([Announcement](https://blog.myget.org/post/2017/09/11/php-composer-packages-on-myget.html) \| [Docs](docs/walkthrough/getting-started-with-php-composer))
 
   In fact, this also resulted in a bug fix on Composer itself (which is now merged, yay!) - [composer/composer#6717](https://github.com/composer/composer/pull/6717) will be part of Composer 1.5. Happy to contribute back!
 
