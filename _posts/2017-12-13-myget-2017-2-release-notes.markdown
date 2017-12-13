@@ -9,7 +9,7 @@ tags: ["Development", "Feature", "Maintenance"]
 author: "Xavier Decoster"
 ---
 
-We are happy to announce MyGet 2017.2 was released on December 13, 2017! Full release notes are [availble from our docs](http://docs.myget.org/docs/release-notes/myget-2017.2).
+We are happy to announce MyGet 2017.2 was released on December 13, 2017! Full release notes are [available from our docs](http://docs.myget.org/docs/release-notes/myget-2017.2).
 
 ## Highlights
 
@@ -65,7 +65,7 @@ Being a EU-based company, we take privacy and security very seriously! As such, 
 
 ## Features
 
-Full release notes with a list of all features and fixes are [availble from our docs](http://docs.myget.org/docs/release-notes/myget-2017.2).
+Full release notes with a list of all features and fixes are [available from our docs](http://docs.myget.org/docs/release-notes/myget-2017.2).
 
 We love hearing from you, so keep that [feedback](https://myget.uservoice.com/) coming! MyGet is built for you!
 
