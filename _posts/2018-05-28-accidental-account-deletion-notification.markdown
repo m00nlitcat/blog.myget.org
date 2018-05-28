@@ -9,15 +9,15 @@ tags: ["Development"]
 author: "Xavier Decoster"
 ---
 
-On May 17, 2018, a subset of 2.500 MyGet users accidentally received an automated e-mail informing their account was deleted due to inactivity (while no user data was in fact, removed). We want to apologize this happened, and detail our investigation into why this happened.
+On May 17, 2018, a subset of 2.500 MyGet users accidentally received an automated e-mail informing their account was deleted due to inactivity (while no user data was in fact, removed). We want to apologize for this accidental e-mail, and detail our investigation into why this happened.
 
-Since a couple of weeks, we are tracking inactive users on our free plan for two reasons. First, of course, it would be nice if those users become active again, and maybe even upgrade to a paid subscription. Second, as part of our efforts in ensuring user privacy, we want to ensure we don't keep user data around for users who are no longer using our service.
+Since a couple of weeks, we are tracking inactive users on our free plan, for two reasons. First, of course, it would be nice if those users become active again, and maybe even upgrade to a paid subscription. Second, as part of our efforts in ensuring user privacy, we want to ensure we don't keep user data around for users who are no longer using our service.
 
 There are two processes involved in this, let's call them `Flag` and `RemoveIncomplete`.
 
 The `Flag` job checks existing users and their subscription, and informs inactive users how they can keep their account active (or let it expire after a further 30 days of inactivity). When looking at the accidental e-mails, they all looked like they were sent by the `Flag` job, which is also what we communicated with affected users on May 17, 2018.
 
-Further investigation learns the `RemoveIncomplete` was responsible for these accidental e-mails...
+Further investigation learns the `RemoveIncomplete` was responsible for these accidental e-mails.
 
 Let's look at something else first. When clicking the Microsoft Account or GitHub identity provider on the MyGet login screen, we create a temporary profile without a username. The first step after the first login is for our user to pick their desired username. If they don't, the user profile is deemed "incomplete" as there is no username attached to it. It's this type of profiles the `RemoveIncomplete` job removes.
 
