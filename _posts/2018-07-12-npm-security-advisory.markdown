@@ -11,7 +11,7 @@ author: "Xavier Decoster"
 
 *TL;DR: If you are **using NPM** and have installed the package **eslint-scope 3.7.2**, we recommend you to **revoke your MyGet access tokens**.*
 
-# Security Advisory
+## Security Advisory
 
 At MyGet, we’re always closely monitoring security events in the package management space, and we want you to be aware of a vulnerability incident that hit npm users today. The full incident report can be read on the [npmjs.org status page](https://status.npmjs.org/incidents/dn7c1fgrr7ng).
 
