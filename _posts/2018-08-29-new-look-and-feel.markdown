@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Website/App Look and Feel"
-date: 2018-08-29 14:45:00 +0100
+date: 2018-08-29 14:45:00 +0000
 comments: true
 published: true
 categories: ["post"]
