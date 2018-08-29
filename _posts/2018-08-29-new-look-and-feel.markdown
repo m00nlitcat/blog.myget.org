@@ -16,10 +16,12 @@ Nothing in the app will move and all functionality will remain the same. You’l
 
 To give you a sneak peek of of what you’ll be seeing, we’ve put together some preview shots.
 
+We look forward to sharing the newly designed MyGet experience with you very soon. Feel free to send questions to [support@myget.org](mailto:support@myget.org). 
+
 ![Packages](/images/2018/packages.png)
 
 ![Sign In](/images/2018/sign-in.png)
 
 ![Macbook Close View](/images/2018/macbook-close-view.png)
 
-We look forward to sharing the newly designed MyGet experience with you very soon. Feel free to send questions to [support@myget.org](mailto:support@myget.org). 
+
