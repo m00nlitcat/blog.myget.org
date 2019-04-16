@@ -6,4 +6,5 @@ _importer/disqus_map.csv
 .DS_Store
 *.swp
 .sass-cache
+.idea/
 

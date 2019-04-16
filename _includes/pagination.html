@@ -1,13 +1,27 @@
-<nav class="pagination" role="pagination">
+<nav aria-label="Page navigation" role="pagination">
+    <ul class="pagination">
     {% if paginator.previous_page %}
+        <li class="page-item first-page">
+            <a class="newer-posts page-link" href="/" title="First Page">&laquo;&laquo; First Page</a>&nbsp;&nbsp;
+        </li>
         {% if paginator.previous_page == 1 %}
-            <a class="newer-posts" href="/" title="Previous Page">&laquo; Newer Posts</a>
+            <li class="page-item">
+                <a class="newer-posts page-link" href="/" title="Previous Page">&laquo; Newer Posts</a>
+            </li>
         {% else %}
-            <a class="newer-posts" href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Newer Posts</a>
-      {% endif %}
+            <li class="page-item">
+                <a class="newer-posts page-link" href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Newer Posts</a>
+            </li>
+        {% endif %}
     {% endif %}
     <span class="page-number"> Page {{paginator.page}} of {{paginator.total_pages}} </span>
-    {% if paginator.next_page %} 
-        <a class="older-posts" href="/page{{ paginator.next_page }}/" title="Next Page">Older Posts &raquo;</a>
-    {% endif %} 
+    {% if paginator.next_page %}
+        <li class="page-item">
+            <a class="older-posts page-link" href="/page{{ paginator.next_page }}/" title="Next Page">Older Posts &raquo;</a>
+        </li>
+        <li class="page-item last-page">
+            <a class="older-posts page-link" href="/page{{ paginator.total_pages }}/" title="Last Page">Last Page &raquo;&raquo;</a>
+        </li>
+    {% endif %}
+    </ul>
 </nav>

@@ -1,10 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>{{ site.name }} - {{ site.description }}</title>
     <meta name="description" content="{{ site.meta_description}}" />
 
@@ -12,7 +14,7 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<meta property="og:title" content="MyGet Blog - Hosting your NuGet, Npm, Bower, Maven and Vsix packages" />
+    <meta property="og:title" content="MyGet Blog - Hosting your NuGet, Npm, Bower, Maven and Vsix packages" />
     <meta property="og:type" content="MyGet" />
     <meta property="og:url" content="https://docs.myget.org" />
     <meta property="og:description" content="MyGet Blog - Hosting your NuGet, Npm, Bower, Maven and Vsix packages" />
@@ -20,51 +22,82 @@
     <meta property="og:image:url" content="https://www.myget.org/Content/images/marketing/myget-cube.png" />
     <meta property="twitter:card" content="summary">
     <meta property="twitter:site" content="@MyGetTeam" />
-	
-	<meta property="og:image" content="https://www.myget.org/Content/Content/images/myget/logo.png" />
-    
-    <link rel="stylesheet" href="https://www.myget.org/bundles/css/styles.min.css?c=blog" type="text/css" />
-    <link rel="stylesheet" href="/assets/css/blog.css" type="text/css" />
-    <link href="https://www.myget.org/favicon.ico?c=blog" rel="shortcut icon" type="image/x-icon" />
 
-    <style>.navbar .brand { background-image: url('https://www.myget.org/Content/images/myget/logo.png'); background-position: 0; background-size: auto 40px; }</style>
-	
-    <!--[if lt IE 9]>
-        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    
-    <script type="text/javascript" src="https://www.myget.org/bundles/js/scripts.min.js?c=blog"></script>  
+    <meta property="og:image" content="https://www.myget.org/Content/Content/images/myget/logo.png" />
+
+    <link rel="stylesheet" href="/assets/css/blog.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://www.myget.org/favicon.ico?c=blog" rel="shortcut icon" type="image/x-icon" />
 </head>
 <body>
-    <div class="content-wrapper">
         <header>
-            <nav class="navbar navbar-static-top" role="navigation">
-    <div class="navbar-inner">
-        <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="/">
-                <h1><span>MyGet - Hosted Package Management Server for NuGet, symbols, Npm, Bower, Maven and VSIX</span></h1>
-            </a>
-            <div class="nav-collapse collapse pull-right">
-                    <ul class="nav">
-                            <li><a href="https://www.myget.org/features">Features</a></li>
-                            <li><a href="https://www.myget.org/pricing">Pricing</a></li>
-                                                    <li><a href="/gallery">Gallery</a></li>
-                        <li><a href="https://docs.myget.org">Docs</a></li>
-                        <li><a href="https://blog.myget.org">Blog</a></li>
-                    </ul>
-                    <div class="navbar-form pull-right">
-                        <a class="btn" href="https://www.myget.org/Account/Login">Sign In</a>
-                        <a class="btn btn-primary" href="https://www.myget.org/Account/Register">Sign Up</a>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-static-top" role="navigation">
+                    <a class="navbar-brand" href="/">
+                        <img src="/images/my-get-logo@2x.png" width="120" height="36" alt="MyGet logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a href="https://www.myget.org/features" class="nav-link" >Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.myget.org/pricing" class="nav-link">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.myget.org/gallery" class="nav-link">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.myget.org" class="nav-link">Docs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://blog.myget.org" class="nav-link">Blog</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto nav-buttons">
+                            <li class="nav-item">
+                                <a class="btn" href="https://www.myget.org/Account/Login">Sign In</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-primary" href="https://www.myget.org/Account/Register">Sign Up</a>
+                            </li>
+                        </ul>
+                        <div class="navbar-form pull-right">
+
+
+                        </div>
                     </div>
+                </nav>
             </div>
-        </div>
-    </div>
-</nav>
+
+            {% if page.url == "/" %}
+            <div class="container">
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1>Welcome to MyGet Blog!</h1>
+                            <h2>Check out our new updates!</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% if page.url == "/404" %}
+            <div class="container">
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1>404 - Page not found</h1>
+                            <h2>We couldn't find the page you're looking for :(</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
         </header>
 
         <div class="content">
@@ -73,74 +106,76 @@
             </div>
         </div>
 
-        <footer class="footer">
           
-<div class="container">
-    <div class="row">
-        <div class="span4">
-            <h2><img src="https://mygetwww-2e16.kxcdn.com/Content/images/myget/myget_125x25_white.png?c=MjAxNy4yLjAuMTgy" width="125" height="25" /></h2>
-            MyGet. Best-in-class Package Management.<br />
-            <br />
-                <a class="share share-twitter" target="blank" href="https://twitter.com/share?url=http://www.myget.org/&text=Check %23MyGet, it's an online repository for private packages!"></a>
-                <a class="share share-facebook" target="blank" href="https://www.facebook.com/sharer.php?u=http://www.myget.org/"></a>
-                <a class="share share-linkedin" target="blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.myget.org/"></a>
-                <a class="share share-google" target="blank" href="https://plus.google.com/share?url=http://www.myget.org/"></a>
-                <br />
-            <p class="colofon">
-                &copy; 2011-{{date format="YYYY"}} <a href="https://www.myget.org/company">MyGet</a>. All rights reserved.<br/>
-                MyGet&reg; and the MyGet logo are trademarks registered with the EU Intellectual Property Office.</p>
-            <p class="colofon">
-                <a href="https://www.myget.org/policies/terms">Terms of Service</a>
-                | <a href="https://www.myget.org/policies/disclaimer">Disclaimer</a>
-                | <a href="https://www.myget.org/policies/privacy">Privacy</a>
-            </p>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://mgcdn-assets.azureedge.net/Content/images/myget-logo.svg?c=MjAxOC4xLjAuMTIyNQ==" width="180" />
+            </div>
+            <div class="col-md-2">
+                <h4>Learn more</h4>
+                <ul>
+                    <li><a href="https://www.myget.org/features">Features</a></li>
+                    <li><a href="https://www.myget.org/testimonials">Customers</a></li>
+                    <li><a href="https://www.myget.org/pricing">Pricing</a></li>
+                    <li><a href="https://www.myget.org/partners">Partners &amp; resellers</a></li>
+                    <li><a href="https://www.myget.org/company">About us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h4>Support and Help</h4>
+                <ul>
+                    <li><a href="https://docs.myget.org/docs/reference/faq">FAQ</a></li>
+                    <li><a href="https://docs.myget.org">Documentation</a></li>
+                    <li><a href="https://www.myget.org/Support">Support</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h4>News and Updates</h4>
+                <ul>
+                    <li><a href="https://blog.myget.org">Our Blog</a></li>
+                    <li><a href="https://twitter.com/mygetteam">Follow us on Twitter</a></li>
+                    <li><a href="https://myget.uservoice.com">Feedback via UserVoice</a></li>
+                    <li><a href="http://status.myget.org/">Status Page</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="span2">
-            <h2>Learn more</h2>
-            <ul>
-                <li><a href="https://www.myget.org/features">Features</a></li>
-                <li><a href="https://www.myget.org/testimonials">Customers</a></li>
-                <li><a href="https://www.myget.org/pricing">Pricing</a></li>
-                <li><a href="https://www.myget.org/partners">Partners &amp; resellers</a></li>
-                <li><a href="https://www.myget.org/company">About us</a></li>
-            </ul>
-        </div>
-        <div class="span2">
-            <h2>Support and Help</h2>
-            <ul>
-                <li><a href="https://docs.myget.org/docs/reference/faq">FAQ</a></li>
-                <li><a href="https://docs.myget.org">Documentation</a></li>
-                <li><a href="https://www.myget.org/Support">Support</a></li>
-            </ul>
-        </div>
-        <div class="span2">
-            <h2>News and Updates</h2>
-            <ul>
-                <li><a href="https://blog.myget.org">Our Blog</a> &rarr;</li>
-                <li><a href="https://twitter.com/mygetteam">Follow us on Twitter</a> &rarr;</li>
-                <li><a href="https://myget.uservoice.com">Feedback via UserVoice</a> &rarr;</li>
-                <li><a href="http://status.myget.org/">Status Page</a> &rarr;</li>
-            </ul>
+        <div class="row footer-secondary">
+            <div class="col-md-8">
+                <ul>
+                    <li><a href="https://www.myget.org/policies/terms">Terms of Service</a></li>
+                    <li><a href="https://www.myget.org/policies/disclaimer">Disclaimer</a></li>
+                    <li><a href="https://www.myget.org/policies/privacy">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-right">
+                <ul class="socials">
+                    <li><a href="https://twitter.com/share?url=http://www.myget.org/&text=Check%20%23MyGet,%20it%27s%20an%20online%20repository%20for%20private%20packages!" class="icon twitter"></a></li>
+                    <li><a href="https://www.facebook.com/sharer.php?u=http://www.myget.org/" class="icon facebook"></a></li>
+                    <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.myget.org/" class="icon linkedin"></a></li>
+                    <li><a href="https://plus.google.com/share?url=http://www.myget.org/" class="icon googleplus"></a></li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
-          
-    <!-- Google Analytics Tracking code -->
-    <script type="text/javascript">
+</footer>
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
-      _gaq.push(['_trackPageview']);
+<!-- Google Analytics Tracking code -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
+  _gaq.push(['_trackPageview']);
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 
-    </script>
-
-        </footer>
-    </div>    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

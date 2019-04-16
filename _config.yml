@@ -43,6 +43,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - .idea
 keep_files:
   - .git
   - .svn
@@ -78,7 +79,7 @@ timezone: Europe/Brussels # http://en.wikipedia.org/wiki/List_of_tz_database_tim
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -94,3 +95,6 @@ whitelist:
   - jekyll-feed
   - jekyll-redirect-from
   - jemoji
+
+sass:
+  style: compressed
