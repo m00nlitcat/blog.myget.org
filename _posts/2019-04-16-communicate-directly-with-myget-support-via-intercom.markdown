@@ -15,7 +15,7 @@ More development teams—big and small—are joining MyGet to make their package
 
 We heard you and are happy to announce that we’ve migrated our MyGet Customer Support processes to the Intercom platform for a seamless, efficient support experience for our amazing customers.
 
-With the power of Intercom, you now have a direct line to communicate with MyGet’s Support Team in-app—no ticket needed! You may continue to send support questions to [support@myget.org](mailto:support@myget.org)if you prefer, or simply open the chat window that appears in the bottom right corner of the screen and ask us your questions.
+With the power of Intercom, you now have a direct line to communicate with MyGet’s Support Team in-app—no ticket needed! You may continue to send support questions to [support@myget.org](mailto:support@myget.org) if you prefer, or simply open the chat window that appears in the bottom right corner of the screen and ask us your questions.
 
 The adoption of Intercom represents a key achievement in our ongoing efforts to respond to customer feedback and provide easier, more seamless support to all MyGet users. It will enable our Support Team to reduce response time and provide quicker resolution to your inquiries so your team can continue working as efficiently, effectively and securely as possible.
 
