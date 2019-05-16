@@ -1,112 +1,517 @@
 ---
-# Let's add a comment to make this file sass-y.
+# Lets add a comment to make this file sass-y.
 # Change this file for any custom CSS.
 ---
 
-/* We need to add display:inline in order to align the '>>' of the 'read more' link */
-.post-excerpt p {
-	display:inline;
-}
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax"
-;
+@import 'syntax';
+@import 'bootstrap';
+@import 'custom/colors';
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+h2 {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 40px 0 0 0;
+  color: $darkGray;
+}
+ul {
+  list-style-type: none;
+}
+header {
+  background: $secondBrandColor;
+  background: -moz-linear-gradient(-45deg, #0399de 0%, #1168c6 100%);
+  background: -webkit-linear-gradient(-45deg, #0399de 0%,#1168c6 100%);
+  background: linear-gradient(135deg, #0399de 0%,#1168c6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0399de', endColorstr='#1168c6',GradientType=1 );
 
-// Customizatuion for MyGet blog
-.post-meta, .author {
-    display: block;
-    margin-bottom: 10px;
-    color: #9EABB3;
+  .jumbotron {
+    background-color: transparent;
+    padding: 100px 0 120px;
+    margin-bottom: 0;
+    h1, h2, p {
+      color: $white;
+    }
+    h1 {
+      margin-bottom: 50px;
+      font-size: 48px;
+      line-height: 1.2;
+    }
+  }
+}
+.navbar {
+    .navbar-toggler {
+      cursor: pointer;
+      position: relative;
+      margin-right: 20px;
+      padding: 15px;
+      .navbar-toggler-icon {
+        position: absolute;
+        left: 5px;
+        width: 18px;
+        height: 2px;
+        background: #f5f5f5;
+
+        &:before,
+        &:after {
+          content: '';
+          width: 18px;
+          height: 2px;
+          background: #f5f5f5;
+          display: block;
+          position: absolute;
+        }
+        &:before {
+          top: -5px;
+        }
+        &:after {
+          top: 5px;
+        }
+      }
+    }
+  padding: 0;
+  .navbar-brand {
+      margin-right: 60px;
+      padding: 19px 0;
+    }
+    .navbar-nav {
+      align-items: center;
+      .nav-item {
+        .nav-link {
+          font-size: 13px;
+          font-weight: 600;
+          padding: 0;
+          margin: 10px 20px;
+          text-shadow: none;
+          text-transform: uppercase;
+          color: $white;
+          &:hover {
+            background-color: transparent;
+            color: #d9d9d9;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .nav-buttons {
+    margin: 20px auto;
+      align-items: center;
+      .nav-item {
+        .btn {
+          font-size: 13px;
+          font-weight: 600;
+          text-shadow: none;
+          text-transform: uppercase;
+          color: $white;
+          padding: 8px 22px;
+        }
+        &:last-child {
+          .btn {
+            border: 1px solid $white;
+            border-radius: 5px;
+            background: transparent;
+            padding: 8px 40px;
+          }
+         }
+      }
+    }
+
+}
+.breadcrumb {
+    margin: 0 0 40px 0;
+    font-size: 12px;
+    padding: 5px 20px 5px 0;
+    background: $white;
+    display: block !important;
+    li {
+        padding: 0 10px;
+        border-right: 1px solid #DDD;
+        line-height: 1;
+        display: inline !important;
+        a {
+          color: $primary;
+        }
+        &:last-child {
+          color: #333;
+          border-right: none;
+        }
+        &:first-child {
+          padding-left: 0;
+        }
+    }
+}
+.pagination {
+  .page-link {
+    color: $primary;
+    font-size: 14px;
+    border: 0;
+    padding: 8px 0;
+    line-height: 1.4;
+    &:hover {
+      background: transparent;
+      text-decoration: underline;
+    }
+  }
+  .page-number {
+    padding: 8px 10px;
+    color: $darkGray;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .first-page {
+    margin-right: 10px;
+  }
+  .last-page {
+    margin-left: 10px;
+  }
 }
 
-.post-meta a {
-    color: #9EABB3;
+article {
+  header {
+    background: transparent;
+  }
+  .post-title {
+    margin: 8px 0;
+    font-weight: 400;
+    a {
+      color: $darkGray;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  .post-meta {
+    margin-bottom: 30px;
+    color: #999;
+    font-size: 12px;
+    a {
+      color: inherit;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    .author {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-left: 1px solid #DDD;
+        border-right: 1px solid #DDD;
+        line-height: 1;
+    }
+    span {
+      &:nth-of-type(1) {
+        border-left: none !important;
+        padding-left: 0;
+        margin-left: 0;
+      }
+    }
+    span,
+    .author {
+      display: inline;
+    }
+
+  }
+  .post-content {
+    &.post-excerpt {
+      color: #333;
+    }
+    h2 {
+      font-size: 24px;
+      color: #333;
+      padding: 24px 0 10px;
+      margin: 0;
+    }
+    h3 {
+      font-size: 20px;
+      color: #333 !important;
+      padding: 20px 0 10px;
+      margin: 0;
+      font-family: 'Oxygen', sans-serif;
+    }
+    h4 {
+      font-size: 18px;
+      color: #333 !important;
+      padding: 20px 0 10px;
+      margin: 0;
+      font-family: 'Oxygen', sans-serif;
+    }
+    p {
+      + strong {
+        font-weight: 700;
+        color: #333;
+        font-size: 18px;
+        margin: 20px 0 5px;
+      }
+    }
+    a {
+      color: $primary !important;
+      &:hover {
+        color: $primary;
+      }
+    }
+    img {
+      max-width: 100% !important;
+      height: auto !important;
+      margin-top: 20px !important;
+      margin-bottom: 30px !important;
+    }
+
+    .read-more {
+      padding-right: 15px;
+    }
+    ul, ol {
+      list-style-type: initial;
+      li {
+        margin-bottom: 8px;
+        a {
+          color: $primary;
+        }
+        ul, ol {
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+  ul, ol {
+    padding-left: 0;
+    margin-bottom: 20px;
+    li {
+      margin-bottom: 8px;
+      a {
+        color: $primary;
+      }
+      ul, ol {
+        padding-left: 10px;
+      }
+    }
+  }
+  footer {
+    padding: 10px 0 40px;
+    .author {
+      color: #777;
+    }
+  }
+}
+.post {
+  .post-title {
+    font-size: 44px;
+
+  }
 }
 
-.post-date {
-    display: inline-block;
-    margin-left: 8px;
-    padding-left: 12px;
-    border-left: #d5dbde 1px solid;
-    white-space: nowrap;
-}
+footer {
+    padding: 50px 0 20px;
+    font-size: 12px;
+    line-height: 1.4;
 
-.archive-post-date {
-    display: inline-block;
-    margin-right: 8px;
-    padding-right: 12px;
-    border-right: #d5dbde 1px solid;
-    white-space: nowrap;
-    color: #9EABB3;
-	width: 100px;
-}
+    .container {
+        border-top: solid 1px $secondBrandColor;
+        padding-top: 80px;
+    }
 
+    img {
+        margin-bottom: 50px;
+        margin-right: 40px;
+    }
+    h4 {
+        font-size: 12px;
+        line-height: 1.4;
+        margin-bottom: 8px;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: 0;
+            margin: 0 0 10px;
+            line-height: 1.4;
+        }
+
+        a {
+            color: #333;
+        }
+    }
+
+    .footer-secondary {
+        padding: 60px 0 20px;
+        color: #999;
+        font-size: 14px;
+        ul {
+          list-style-type: none;
+          li {
+            display: inline-block;
+          }
+        }
+        a {
+            color: #999;
+            margin-right: 12px;
+        }
+    }
+
+    .secondary-links {
+        font-size: 12px;
+        line-height: 1.4;
+        float: left;
+        margin-top: 8px;
+    }
+}
 .share {
-	margin-bottom: 20px;
+  margin: 48px 0;
+  h4 {
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+code {
+    padding: 2px 4px;
+    color: #d14;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    white-space: nowrap;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.icon {
+    width: 25px;
+    //height: 29px;
+    border: 0;
+    vertical-align: middle;
+    display: inline-block;
+    fill: #666;
+    margin: 0 8px;
 }
 
-.share a {
-	color: #666;
-	font-size: 24px;
-	margin-right: 16px;
+.twitter {
+    background-image: url('/images/twitter.svg');
+    background-repeat: no-repeat;
+    fill: #666;
 }
 
-// Icons
-/* Import the font file with the icons in it */
-@font-face {
-    font-family: "casper-icons";
-    src:url("../fonts/casper-icons.eot");
-    src:url("../fonts/casper-icons.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/casper-icons.woff") format("woff"),
-        url("../fonts/casper-icons.ttf") format("truetype"),
-        url("../fonts/casper-icons.svg#icons") format("svg");
-    font-weight: normal;
-    font-style: normal;
+.facebook {
+    background-image: url('/images/facebook.svg');
+    background-repeat: no-repeat;
 }
 
-/* Apply these base styles to all icons */
-[class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "casper-icons", "Open Sans", sans-serif;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    text-decoration: none !important;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+.linkedin {
+    background-image: url('/images/linkedin.svg');
+    background-repeat: no-repeat;
 }
 
-/* Each icon is created by inserting the correct character into the
-   content of the :before pseudo element. Like a boss. */
-.icon-ghost:before {
-    content: "\f600";
+.googleplus {
+    background-image: url('/images/google-plus-g.svg');
+    background-repeat: no-repeat;
 }
-.icon-feed:before {
-    content: "\f601";
+
+b, strong {
+  font-weight: 800;
 }
-.icon-twitter:before {
-    content: "\f602";
-    font-size: 1.1em;
+.archive {
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 40px;
+    li {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+      span {
+        width: 110px;
+      }
+      a {
+        color: $primary;
+      }
+    }
+  }
 }
-.icon-google-plus:before {
-    content: "\f603";
+@include media-breakpoint-up(md) {
+  h2 {
+    font-size: 32px;
+    margin: 20px 0 0;
+  }
+.navbar {
+  .navbar-nav {
+    justify-content: center;
+    .nav-item {
+      .nav-link {
+        margin: 28px 20px;
+      }
+    }
+  }
+  .nav-buttons {
+    margin: 0;
+      align-items: center;
+      .nav-item {
+        .btn {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+  footer {
+      padding: 50px 0 20px;
+      font-size: 12px;
+      line-height: 1.4;
+
+      .container {
+          border-top: solid 1px $secondBrandColor;
+          padding-top: 80px;
+      }
+
+      img {
+          margin-bottom: 50px;
+          margin-right: 40px;
+      }
+      h4 {
+          font-size: 12px;
+          line-height: 1.4;
+          margin-bottom: 20px;
+          font-weight: 600;
+      }
+      ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+      }
+  }
+  .archive {
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 40px;
+      li {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex: 110px 0 0;
+        margin-bottom: 12px;
+        span {
+          width: 110px;
+        }
+      }
+    }
+  }
 }
-.icon-facebook:before {
-    content: "\f604";
-}
-.icon-arrow-left:before {
-    content: "\f605";
-}
-.icon-stats:before {
-    content: "\f606";
-}
-.icon-location:before {
-    content: "\f607";
-    margin-left: -3px; /* Tracking fix */
-}
-.icon-link:before {
-    content: "\f608";
+.page-404 {
+  padding: 60px 0;
+  text-align: center;
+  a {
+    color: $primary;
+  }
 }
