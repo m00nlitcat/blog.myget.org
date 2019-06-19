@@ -32,4 +32,4 @@ For more detailed information about setting up PyPI package feeds in your MyGet 
 
 Looking to get the most out of MyGet’s new compatibility with Python, or want an overview of our package repository platform as a whole? Register for our webinar on July 3rd to learn how you can improve the security your DevOps lifecycle with secure package management:
 
-<p style="text-align: center;"><a href="https://www.brighttalk.com/webcast/11505/362226" target="_blank">Register Now!</a></p>
+<p style="text-align: center;"><a href="https://www.brighttalk.com/webcast/11505/362226" target="_blank" style="font-weight:700">Register Now!</a></p>
