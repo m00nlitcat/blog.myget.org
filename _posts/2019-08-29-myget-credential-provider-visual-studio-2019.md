@@ -23,8 +23,8 @@ The benefit of using the MyGet Credential Provider for Visual Studio is three-fo
 
 You can set up MyGet Credential Provider in VS 2019 via one of two options:
 
- 1. From within Visual Studio using the Visual Studio Extension Manager.
- 2. Using VSIX installer from the [Visual Studio Gallery](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1456723.MyGetCredentialProviderVS2019).
+1. From within Visual Studio using the Visual Studio Extension Manager.
+2. Using VSIX installer from the [Visual Studio Gallery](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1456723.MyGetCredentialProviderVS2019).
 
 For more information, check out our help article here! 
-https://docs.myget.org/docs/reference/credential-provider-for-visual-studio
+[https://docs.myget.org/docs/reference/credential-provider-for-visual-studio](https://docs.myget.org/docs/reference/credential-provider-for-visual-studio)
