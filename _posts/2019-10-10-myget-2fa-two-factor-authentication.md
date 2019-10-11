@@ -21,7 +21,7 @@ You can now enable 2FA from your MyGet profile settings.
 
 When you have enabled 2FA, you will be prompted for an authentication code any time you log in to your MyGet account.
 
-You can find more information about setting up two-factor authentication for your account by reading our [help article]([https://docs.myget.org/docs/reference/MyGet-Two-Factor-Authentication-2FA](https://docs.myget.org/docs/reference/MyGet-Two-Factor-Authentication-2FA)).
+You can find more information about setting up two-factor authentication for your account by reading our [help article](https://docs.myget.org/docs/reference/MyGet-Two-Factor-Authentication-2FA).
 
 ## How to enforce MyGet 2FA for your entire organization
 
@@ -37,4 +37,4 @@ The next time any user attempts to log into their account on your MyGet Enterpri
 
 ![Oblige MyGet Enterprise users to enable 2FA during sign-up](/images/2019/tenant-obligatory-2fa-for-account-without-2fa-set.png)
 
-You can learn more about enforcing 2FA for anyone with access to your MyGet feeds by visiting our [documentation page]([https://docs.myget.org/docs/reference/MyGet-Two-Factor-Authentication-2FA](https://docs.myget.org/docs/reference/MyGet-Two-Factor-Authentication-2FA)).
+You can learn more about enforcing 2FA for anyone with access to your MyGet feeds by visiting our [documentation page](https://docs.myget.org/docs/reference/MyGet-Two-Factor-Authentication-2FA).
