@@ -5,7 +5,7 @@ date: 2019-10-10 13:00:00 -0500
 comments: true  
 published: true  
 categories: ["post"]  
-tags: ["Feature" , "Development" , "Security" , "Enterprise"]  
+tags: ["Feature", "Development", "Security", "Enterprise"]  
 author: "Matthew Caponigro"  
 ---
 
