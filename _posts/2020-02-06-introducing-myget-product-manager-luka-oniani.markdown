@@ -10,11 +10,14 @@ author: "Matthew Caponigro"
 ---
 As more and more software dev teams have adopted DevOps into their SDLC over the last few years and their needs around private and open-source package management have expanded, it became clear that we needed to find a steward for MyGet's product development moving forward. Especially following on the MyGet Community Survey in December 2019, we found that we needed someone who could dedicate their full time and effort to establishing an action plan and corralling the resources to propel MyGet into the new decade.
 
-<img src="/images/2020/luka-o.png" alt="Introducing Luka Oniani, MyGet Product Manager" align="right" />
+<img src="/images/2020/luka-o.png" alt="Introducing Luka Oniani, MyGet Product Manager" align="right" style="max-height: 250px; max-width: 250px;" />
 
 It is with great excitement and anticipation that we announce MyGet's newest team member: Luka Oniani, MyGet's first dedicated Product Manager. 
 
 Luka could not have joined the team at a more opportune time. Although he has been working almost non-stop since he started in January—diving into conversations with team members and users alike, combing through your feedback and requests, and drafting the MyGet roadmap for the upcoming year—we were able to sneak in a quick Q&A with him earlier this week. Read on to learn a little more about Luka, what brought him to MyGet, and his thoughts about MyGet's direction for the future!
+
+<br>
+<br>
 
 **MyGet Team:** What is your name?  
 Luka Oniani
