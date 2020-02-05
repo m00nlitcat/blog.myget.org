@@ -8,7 +8,7 @@ categories: ["post"]
 tags: ["Community news", "Development", "Stories"]
 author: "Matthew Caponigro"
 ---
-<img src="/images/2020/02/luka-o.png" alt="Introducing Luka Oniani, MyGet Product Manager" align="right" />
+<img src="/images/2020/luka-o.jpg" alt="Introducing Luka Oniani, MyGet Product Manager" align="right" />
 
 As more and more software dev teams have adopted DevOps into their SDLC over the last few years and their needs around private and open-source package management have expanded, it became clear that we needed to find a steward for MyGet's product development moving forward. Especially following on the MyGet Community Survey in December 2019, we were found that we needed someone who could dedicate their full time and effort to establishing an action plan and corralling the resources to propel MyGet into the new decade.
 
