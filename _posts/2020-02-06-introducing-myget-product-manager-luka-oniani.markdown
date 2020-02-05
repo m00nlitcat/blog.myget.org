@@ -3,7 +3,7 @@ layout: post
 title: "Introducing MyGet's Newest Member: Luka Oniani, Product Manager"
 date: 2020-02-06 08:47:03 -0600
 comments: true
-published: false
+published: true
 categories: ["post"]
 tags: ["Community news", "Development", "Stories"]
 author: "Matthew Caponigro"
