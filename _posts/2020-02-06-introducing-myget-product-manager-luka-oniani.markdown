@@ -41,13 +41,13 @@ Luka Oniani
 **LO:** I did not expect the internal structure of our team to be this linear. That structure has made it easy to reach out to decision-makers for daily discussions as needed without formal meeting requests.
 
 **MT:** What are you excited about around MyGet?  
-**LO:** The history of MyGet is really exciting. It was started by two stellar developers who later went on to become MVP Microsoft employees, and at that time it was one of the first private, cloud-hosted package management solutions. As we near MyGet’s 10-year-anniversary, there is a lot of room to double down on what has worked well while looking forward to what problems we can solve for the community in the next decade. Speaking both personally and professionally, it is very exciting to work on reinvigorating every layer of the product.
+**LO:** The history of MyGet is really exciting. It was started by two stellar developers who later went on to become MVP Microsoft employees, and at that time it was one of the first private, cloud-hosted package management solutions. As we near MyGet’s 10th anniversary, there is a lot of room to double down on what has worked well while looking forward to what problems we can solve for the community in the next decade. Speaking both personally and professionally, it is very exciting to work on reinvigorating every layer of the product.
 
 **MT:** What do you anticipate being the biggest challenges in your role?  
-**LO:** The first step to rejuvenating MyGet requires developing an extensive product roadmap. To keep a roadmap realistic, it should be evidence-based and in close alignment with users’ needs. The creation of such a plan requires a lot of quantitative and qualitative research in close collaboration with teammates and users. While designing the roadmap is a pleasantly creative process, its execution is definitely the biggest challenge of my role as Product Manager. However, I am confident that we will ace the mission and set up MyGet to help our community to manage their application dependencies, adopt more fully-integrated DevOps practices, and ship awesome software more easily than ever before!
+**LO:** The first step to rejuvenating MyGet requires developing an extensive product roadmap. To keep a roadmap realistic, it should be evidence-based and in close alignment with users’ needs. The creation of such a plan requires a lot of quantitative and qualitative research in close collaboration with teammates and users. While designing the roadmap is a pleasantly creative process, its execution is the biggest challenge of my role as Product Manager. However, I am confident that we will ace the mission and help our community manage their application dependencies, adopt DevOps, and ship awesome software more easily than ever before!
 
 **MT:** Any teasers from the upcoming roadmap you can share with the MyGet community? 
-**LO:** Sure! There is a lot in the pipeline - from upgrading MyGet’s backend stack (e.g. revamping build services) to adding new features (e.g. improved CI/CD integrations) and new package types (e.g. containers). We have been closely analyzing the suggestions and requests that users have submitted via our UserVoice feature request board and the 2019 MyGet Community Survey, with a focus on prioritizing the most-requested feature sets to deliver this year. Stay tuned and be in touch with us on [UserVoice](https://myget.uservoice.com/forums/135675-general/filters/top) and [Twitter](https://twitter.com/MyGetTeam). 
+**LO:** Sure! There is a lot in the pipeline, from upgrading MyGet’s backend stack (e.g. revamping build services) to adding new features (e.g. improved CI/CD integrations) and new package types (e.g. containers). We have been closely analyzing the suggestions and requests that users have submitted via our UserVoice feature request board, customer support channels, and the 2019 MyGet Community Survey, with a focus on prioritizing the most-requested feature sets to deliver this year. Stay tuned and be in touch with us on [UserVoice](https://myget.uservoice.com/forums/135675-general/filters/top) and [Twitter](https://twitter.com/MyGetTeam). 
 
 **MT:** Dark chocolate or milk chocolate?  
 **LO:** Dark chocolate with black coffee :) 
@@ -65,6 +65,6 @@ You can stay in touch with Luka and the whole MyGet Team by following us on Twit
 * [Twitter](https://twitter.com/MyGetTeam)
 * [LinkedIn](https://www.linkedin.com/company/myget/)
 
-Have an idea for a feature or improvement you'd like to see in MyGet? Let us know by adding your vote or submitting a new idea on MyGet's refreshed [feature request forum](https://myget.uservoice.com/forums/135675-general/filters/top)!
+Have an idea for a feature or improvement you'd like to see in MyGet? Let us know by adding your vote or submitting a new idea on MyGet's refreshed [UserVoice feature request forum](https://myget.uservoice.com/forums/135675-general/filters/top)!
 
 *Happy packaging!*
