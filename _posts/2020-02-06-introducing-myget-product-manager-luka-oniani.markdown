@@ -10,7 +10,7 @@ author: "Matthew Caponigro"
 ---
 As more and more dev teams have integrated DevOps into their SDLC over the last few years, their package management requirements have changed and expanded. In response, MyGet has continued to respond to community requests for new/updated features and new package types. The maturity of the MyGet product and recent growth of the MyGet community has finally reached a point where we needed to bring someone on board who could dedicate their full time and effort to managing MyGet's product vision and propel MyGet into the new decade.
 
-<img src="/images/2020/luka-o.png" alt="Introducing Luka Oniani, MyGet Product Manager" align="right" style="max-height: 250px; max-width: 250px;" />
+<img src="/images/2020/luka-o.png" alt="Introducing Luka Oniani, MyGet Product Manager" align="right" style="max-height: 300px; max-width: 300px;" />
 
 It is with great excitement and anticipation that we announce MyGet's newest team member and **first ever Product Manager: Luka Oniani.**
 
@@ -27,9 +27,9 @@ Luka Oniani
 
 **MT:** Mac, Windows, Linux?  
 **LO:**
-* Mac - when I wear a suit and a tie, meeting business stakeholders;
-* Linux - `sudo apt-get install <awesome assembla>` - when I (rarely) want to go nerdy;
-* Windows - current environment at the moment. Windows has evolved into a decent product, especially with .Net Core and Windows Subsystem for Linux.
+- Mac - when I wear a suit and a tie, meeting business stakeholders;
+- Linux - `sudo apt-get install <awesome assembla>` - when I (rarely) want to go nerdy;
+- Windows - current environment at the moment. Windows has evolved into a decent product, especially with .Net Core and Windows Subsystem for Linux.
 
 **MT:** What were you up to before joining MyGet?  
 **LO:** Before Assembla/MyGet, I was a de-facto co-founder of a custom software development agency. Together, we managed to scale the team from 3 geeks to a fully-fledged company. The team later merged with another (larger) agency, which gave me the chance to pursue opportunities to make an impact on software products that serve a more global audience like Assembla and MyGet. 
@@ -46,7 +46,7 @@ Luka Oniani
 **MT:** What do you anticipate being the biggest challenges in your role?  
 **LO:** The first step to rejuvenating MyGet requires developing an extensive product roadmap. To keep a roadmap realistic, it should be evidence-based and in close alignment with users’ needs. The creation of such a plan requires a lot of quantitative and qualitative research in close collaboration with teammates and users. While designing the roadmap is a pleasantly creative process, its execution is the biggest challenge of my role as Product Manager. However, I am confident that we will ace the mission and help our community manage their application dependencies, adopt DevOps, and ship awesome software more easily than ever before!
 
-**MT:** Any teasers from the upcoming roadmap you can share with the MyGet community? 
+**MT:** Any teasers from the upcoming roadmap you can share with the MyGet community?  
 **LO:** Sure! There is a lot in the pipeline, from upgrading MyGet’s backend stack (e.g. revamping build services) to adding new features (e.g. improved CI/CD integrations) and new package types (e.g. containers). We have been closely analyzing the suggestions and requests that users have submitted via our UserVoice feature request board, customer support channels, and the 2019 MyGet Community Survey, with a focus on prioritizing the most-requested feature sets to deliver this year. Stay tuned and be in touch with us on [UserVoice](https://myget.uservoice.com/forums/135675-general/filters/top) and [Twitter](https://twitter.com/MyGetTeam). 
 
 **MT:** Dark chocolate or milk chocolate?  
@@ -62,8 +62,8 @@ Luka Oniani
 **LO:** Work hard and don’t be afraid to make mistakes in the early stages of your career. Take responsibility for your mistakes and learn from them. Hard times will help you grow faster. 
 
 You can stay in touch with Luka and the whole MyGet Team by following us on Twitter or LinkedIn:
-* [Twitter](https://twitter.com/MyGetTeam)
-* [LinkedIn](https://www.linkedin.com/company/myget/)
+- [Twitter](https://twitter.com/MyGetTeam)
+- [LinkedIn](https://www.linkedin.com/company/myget/)
 
 Have an idea for a feature or improvement you'd like to see in MyGet? Let us know by adding your vote or submitting a new idea on MyGet's refreshed [UserVoice feature request forum](https://myget.uservoice.com/forums/135675-general/filters/top)!
 
