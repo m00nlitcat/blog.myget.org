@@ -34,8 +34,6 @@ You can also upload symbol files directly to MyGet via MyGet.org.
 
 Once you have uploaded your symbol package to MyGet, you will be able to download it via MyGet.org, retrieve it with a MyGet API endpoint, or access it directly from Visual Studio.
 
-<img src="/images/2020/myget-nuget-symbols-google-analytics-tracker.png" alt="MyGet supports NuGet packages and .snupkgs symbols in the same feed." align="center" style="max-width:680px;"/>
-
 
 ## What about my existing symbols on MyGet? Will MyGet continue to support the .symbols.nupkg format?
 
