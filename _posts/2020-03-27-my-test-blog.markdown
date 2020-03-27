@@ -36,8 +36,6 @@ What _**IS**_  interesting is the percent of Python users that have joined. Pyth
 
 On one hand, it might be expected to see a fair number of responses from Python developers in our survey results, given Python’s the ever-growing populatiry. (According to [RedMonk Programming Language Rankings](https://redmonk.com/sogrady/2020/02/28/language-rankings-1-20/) Python has climbed into the number two spot in terms of most widely-used programming languages.)
 
-_“_
-
 But on the other hand, our Python integration was one of the most recent functionalities we added to MyGet. It’s reassuring to see the number of folks in the MyGet community who might now be able to store their Python modules and libraries in MyGet alongside the other packages they already use..   In less than six months, Python PyPI packages climbed to the number 5 spot in our list of most-used package formats on MyGet, surpassing a number of other package manager types that have been supported by MyGet for years and knocking on Maven’s doorstep for the number 4 spot.
 
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/A-Product2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
