@@ -1,8 +1,9 @@
 # A Product Survey Story: What we learned 🧐 
 
-A little while back we invited the MyGet community to participate in our first annual product survey! We wanted to learn more about you, our customers, and about how you have been using MyGet to push, pull, and manage your packages.
+A little while back we invited the MyGet community to participate in our first annual product survey! We wanted to learn more about you, our customers, and about how you have been using MyGet to store, manage, and distribute your packages.
 
-While we learned a tremendous amount about what value most about MyGet and what we need to change, we’ve been more eager to share the results with you to help us all better understand the community that makes up MyGet! Here are our top takeaways from the results.
+Thanks to your candid participation, we learned a tremendous amount about what you value most about MyGet and what we need to change. We are eager to share the results with you too, to help us all better understand the community that makes up MyGet! Here are our top takeaways from the results.
+
 
 
 ## Built by developers, for developers
