@@ -1,6 +1,3 @@
-
---->
----
 layout: post
 title: "A Product Survey Story: What We learned"
 date: 2020-04-02 10:37:03 -0600
@@ -9,7 +6,6 @@ published: true
 categories: ["post"]
 tags: ["Community news", "Development", "NuGet", "Stories", "Feature", "Python"]
 author: "Cat Richardson"
----
 
 # A Product Survey Story: What We learned 🧐 
 
@@ -25,7 +21,7 @@ First off, we learned more about you! As we think about continuing to build out 
 
 Of the more than 750 folks that participated, more than 85% of you self-identified as having a technical role on your team, whether that be as a developer/software engineer (58%), architect (12%), DevOps/IT engineer (12%) or a Tester/QA team member (3%).
 
-![Who uses my get?](images/2020/Who-uses-MyGet?.jpg )
+![Who uses my get?](images/2020/Who-uses-MyGet?.jpg)
 
 
 ##.NET, JavaScript HTML: The Top 3 \
