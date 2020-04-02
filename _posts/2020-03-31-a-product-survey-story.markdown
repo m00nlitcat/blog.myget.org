@@ -30,7 +30,7 @@ Of the more than 750 folks that participated, more than 85% of you self-identifi
 **In its early days, MyGet was lovingly introduced as  “NuGet-as-a-service”. That was the need it was built to solve—an easy way for you to get the benefits of a private NuGet server without the headache of managing installation or infrastructure. So it’s not surprising to see Microsoft .NET languages used most by MyGet community members.
 
 
-[What programming language is most widely used?](/images/2020/What-programming-language-used.jpg "What-programming-language-used")
+![What programming language is most widely used?](/images/2020/What-programming-language-used.jpg "What-programming-language-used")
 
 
 What _**IS**_  interesting is the percent of Python users that have joined MyGet over the last year. Python developers represent the largest percentage of the MyGet community outside of .NET, JavaScript and plain HTML/CSS, outdoing Java developers by 2%. We’re no longer just a NuGet family; the MyGet tent has grown and some of you have spread your programming wings. 😭
