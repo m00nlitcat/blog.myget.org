@@ -9,7 +9,7 @@ tags: ["Community news", "Development", "NuGet", "Stories", "Feature", "Python"]
 author: "Cat Richardson"
 ---
 
-# A Product Survey Story: What We learned 🧐 
+# A Product Survey Story: What We Learned 🧐 
 
 
 A little while back we invited the MyGet community to participate in our first annual product survey! We wanted to learn more about you, our customers, and about how you have been using MyGet to store, manage, and distribute your packages.
