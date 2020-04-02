@@ -40,7 +40,7 @@ On one hand, it might be expected to see a fair number of responses from Python 
 But on the other hand, our Python PyPI support is one of the most recent functionalities we have added to MyGet. It’s reassuring to see how many members of the MyGet community benefitted from the addition of Python packages alongside their NuGet, npm, Bower, Maven, and Composer packages. In less than six months, Python PyPI packages climbed to the number 5 spot in our list of most-used package formats, surpassing other package manager types that we’ve supported for much longer and knocking on Maven’s doorstep for the number 4 spot.
 
 
-![What package manager do you use?](/images/2020/What-Package-manager-does-your-team-use.svg "What-Package-manager-does-your-team-use")
+![What package manager do you use?](/images/2020/What-Package-manager-does-your-team-use.jpg "What-Package-manager-does-your-team-use")
 
 
 
