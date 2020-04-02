@@ -1,3 +1,4 @@
+---
 layout: post
 title: "A Product Survey Story: What We learned"
 date: 2020-04-02 10:37:03 -0600
@@ -6,6 +7,7 @@ published: true
 categories: ["post"]
 tags: ["Community news", "Development", "NuGet", "Stories", "Feature", "Python"]
 author: "Cat Richardson"
+----
 
 # A Product Survey Story: What We learned 🧐 
 
@@ -24,11 +26,11 @@ Of the more than 750 folks that participated, more than 85% of you self-identifi
 ![Who uses my get?](images/2020/Who-uses-MyGet?.jpg)
 
 
-##.NET, JavaScript HTML: The Top 3 \
+## .NET, JavaScript HTML: The Top 3
 **In its early days, MyGet was lovingly introduced as  “NuGet-as-a-service”. That was the need it was built to solve—an easy way for you to get the benefits of a private NuGet server without the headache of managing installation or infrastructure. So it’s not surprising to see Microsoft .NET languages used most by MyGet community members.
 
 
-![What programming language is most widely used?](images/2020/What-programming-language-used.jpg)
+[What programming language is most widely used?](images/2020/What-programming-language-used.jpg)
 
 
 What _**IS**_  interesting is the percent of Python users that have joined MyGet over the last year. Python developers represent the largest percentage of the MyGet community outside of .NET, JavaScript and plain HTML/CSS, outdoing Java developers by 2%. We’re no longer just a NuGet family; the MyGet tent has grown and some of you have spread your programming wings. 😭
@@ -54,7 +56,6 @@ One of the most effective ways to leverage the artifacts you store in MyGet is t
 
 
 ![What do you use for CI/CD?](images/2020/What-do-you-use-CI-CD.jpg)
-
 
 
 ## Why do you use MyGet?
