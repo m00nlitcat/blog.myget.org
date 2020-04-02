@@ -30,7 +30,7 @@ Of the more than 750 folks that participated, more than 85% of you self-identifi
 In its early days, MyGet was lovingly introduced as  “NuGet-as-a-service”. That was the need it was built to solve—an easy way for you to get the benefits of a private NuGet server without the headache of managing installation or infrastructure. So it’s not surprising to see Microsoft .NET languages used most by MyGet community members.
 
 
-![What programming language is most widely used?](/images/2020/What-programming-language-used.jpg "What-programming-language-used")
+![What programming language is most widely used?](/images/2020/What-programming-language-used.png "What-programming-language-used")
 
 
 What _**IS**_  interesting is the percent of Python users that have joined MyGet over the last year. Python developers represent the largest percentage of the MyGet community outside of .NET, JavaScript and plain HTML/CSS, outdoing Java developers by 2%. We’re no longer just a NuGet family; the MyGet tent has grown and some of you have spread your programming wings. 😭
@@ -40,7 +40,7 @@ On one hand, it might be expected to see a fair number of responses from Python 
 But on the other hand, our Python PyPI support is one of the most recent functionalities we have added to MyGet. It’s reassuring to see how many members of the MyGet community benefitted from the addition of Python packages alongside their NuGet, npm, Bower, Maven, and Composer packages. In less than six months, Python PyPI packages climbed to the number 5 spot in our list of most-used package formats, surpassing other package manager types that we’ve supported for much longer and knocking on Maven’s doorstep for the number 4 spot.
 
 
-![What package manager do you use?](/images/2020/What-Package-manager-does-your-team-use.jpg "What-Package-manager-does-your-team-use")
+![What package manager do you use?](/images/2020/What-Package-manager-does-your-team-use.png "What-Package-manager-does-your-team-use")
 
 
 
