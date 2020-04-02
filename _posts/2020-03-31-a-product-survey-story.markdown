@@ -7,7 +7,7 @@ published: true
 categories: ["post"]
 tags: ["Community news", "Development", "NuGet", "Stories", "Feature", "Python"]
 author: "Cat Richardson"
-----
+---
 
 # A Product Survey Story: What We learned 🧐 
 
@@ -26,8 +26,8 @@ Of the more than 750 folks that participated, more than 85% of you self-identifi
 ![Who uses my get?](/images/2020/Who-uses-MyGet.jpg "Who-uses-MyGet")
 
 
-## .NET, JavaScript HTML: The Top 3
-**In its early days, MyGet was lovingly introduced as  “NuGet-as-a-service”. That was the need it was built to solve—an easy way for you to get the benefits of a private NuGet server without the headache of managing installation or infrastructure. So it’s not surprising to see Microsoft .NET languages used most by MyGet community members.
+## .NET, JavaScript, HTML: The Top 3
+In its early days, MyGet was lovingly introduced as  “NuGet-as-a-service”. That was the need it was built to solve—an easy way for you to get the benefits of a private NuGet server without the headache of managing installation or infrastructure. So it’s not surprising to see Microsoft .NET languages used most by MyGet community members.
 
 
 ![What programming language is most widely used?](/images/2020/What-programming-language-used.jpg "What-programming-language-used")
@@ -46,7 +46,7 @@ But on the other hand, our Python PyPI support is one of the most recent functio
 
 ## How does MyGet fit into your DevOps lifecyle?  
 
-Over 98% of you responded that you are currently using source control for the proprietary code you write, which is a good thing: source control is a must-have for modern software development. Almost 100% of you who use source control are using Git, with Github, Azure DevOps (split between cloud and server), Bitbucket, GitLab, and Assembla coming in as your top five hosting platforms. \
+Over 98% of you responded that you are currently using source control for the proprietary code you write, which is a good thing: source control is a must-have for modern software development. Almost 100% of you who use source control are using Git, with Github, Azure DevOps (split between cloud and server), Bitbucket, GitLab, and Assembla coming in as your top five hosting platforms.
 
 
 ![What tools do you manage your source code with?](/images/2020/Whats-source-code-do-you-use.jpg "Whats-source-code-do-you-use")
